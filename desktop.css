@@ -1,0 +1,4412 @@
+* {  box-sizing: border-box;  
+  border-width: 0;  
+  border-style: solid;
+  margin: 0;
+  padding: 0;
+  }
+
+html {
+  font-family : Inter;
+  font-size : 16px;
+
+  }
+  body {
+  font-weight : 400;
+  font-style : normal;
+  text-decoration : none;
+  text-transform : none;
+  letter-spacing : normal;
+  line-height : 1.15;
+  margin: 0;
+  }
+  .container {
+  min-height : 100vh;
+  }
+  .main {
+  width : 100%;
+  height : 6575px;
+  display : flex;
+  overflow : hidden;
+  position : relative;
+  align-items : flex-start;
+  flex-shrink : 0;
+  border-color : transparent;
+  background-color : rgb(255, 255, 255, 1);
+  }
+  .ellipse3 {
+  top : 1806px;
+  left : 154px;
+  width : 189px;
+  height : 32px;
+  position : absolute;
+  border-color : transparent;
+  }
+  .ellipse2 {
+  top : 1460px;
+  left : 947px;
+  width : 366px;
+  height : 59px;
+  position : absolute;
+  border-color : transparent;
+  }
+  .ellipse1 {
+  top : 558px;
+  left : 921px;
+  width : 274px;
+  height : 41px;
+  position : absolute;
+  border-color : transparent;
+  }
+  .noroot1 {
+  top : 223px;
+  left : 890px;
+  width : 304px;
+  height : 356px;
+  position : absolute;
+  border-color : transparent;
+  }
+  .text {
+  top : 248px;
+  left : 122px;
+  color : rgb(0, 0, 0, 1);
+  width : 628px;
+  height : auto;
+  position : absolute;
+  font-size : 80px;
+  align-self : auto;
+  text-align : left;
+  font-family : "Roboto Slab";
+  font-weight : 700;
+  line-height : 101.38%;
+  font-stretch : normal;
+  margin-right : 0;
+  margin-bottom : 0;
+  text-decoration : none;
+  }
+  .text002 {
+  top : 427px;
+  left : 122px;
+  color : rgb(0, 0, 0, 1);
+  width : 414px;
+  height : auto;
+  position : absolute;
+  font-size : 20px;
+  align-self : auto;
+  text-align : left;
+  font-family : Roboto;
+  font-weight : 400;
+  line-height : 150%;
+  font-stretch : normal;
+  margin-right : 0;
+  margin-bottom : 0;
+  text-decoration : none;
+  }
+  .text007 {
+  top : 1689px;
+  left : 485px;
+  color : rgb(0, 0, 0, 1);
+  width : 150px;
+  height : auto;
+  position : absolute;
+  font-size : 25px;
+  align-self : auto;
+  text-align : left;
+  font-family : Roboto;
+  font-weight : 700;
+  line-height : 130%;
+  font-stretch : normal;
+  margin-right : 0;
+  margin-bottom : 0;
+  text-decoration : none;
+  }
+  .text009 {
+  top : 2182px;
+  left : 122px;
+  color : rgb(30, 70, 129, 1);
+  width : 150px;
+  height : auto;
+  position : absolute;
+  font-size : 25px;
+  align-self : auto;
+  text-align : left;
+  font-family : Roboto;
+  font-weight : 700;
+  line-height : 130%;
+  font-stretch : normal;
+  margin-right : 0;
+  margin-bottom : 0;
+  text-decoration : none;
+  }
+  .text011 {
+  top : 1729px;
+  left : 485px;
+  color : rgb(0, 0, 0, 1);
+  width : 150px;
+  height : auto;
+  position : absolute;
+  font-size : 18px;
+  align-self : auto;
+  text-align : left;
+  font-family : Roboto;
+  font-weight : 400;
+  line-height : 130%;
+  font-stretch : normal;
+  margin-right : 0;
+  margin-bottom : 0;
+  text-decoration : none;
+  }
+  .text016 {
+  top : 2222px;
+  left : 122px;
+  color : rgb(0, 0, 0, 1);
+  width : 223px;
+  height : auto;
+  position : absolute;
+  font-size : 18px;
+  align-self : auto;
+  text-align : left;
+  font-family : Roboto;
+  font-weight : 400;
+  line-height : 130%;
+  font-stretch : normal;
+  margin-right : 0;
+  margin-bottom : 0;
+  text-decoration : none;
+  }
+  .text023 {
+  top : 1729px;
+  left : 730px;
+  color : rgb(0, 0, 0, 1);
+  width : 150px;
+  height : auto;
+  position : absolute;
+  font-size : 18px;
+  align-self : auto;
+  text-align : left;
+  font-family : Roboto;
+  font-weight : 400;
+  line-height : 130%;
+  font-stretch : normal;
+  margin-right : 0;
+  margin-bottom : 0;
+  text-decoration : none;
+  }
+  .text028 {
+  top : 2222px;
+  left : 467px;
+  color : rgb(0, 0, 0, 1);
+  width : 271px;
+  height : auto;
+  position : absolute;
+  font-size : 18px;
+  align-self : auto;
+  text-align : left;
+  font-family : Roboto;
+  font-weight : 400;
+  line-height : 130%;
+  font-stretch : normal;
+  margin-right : 0;
+  margin-bottom : 0;
+  text-decoration : none;
+  }
+  .text030 {
+  top : 1729px;
+  left : 973px;
+  color : rgb(0, 0, 0, 1);
+  width : 150px;
+  height : auto;
+  position : absolute;
+  font-size : 18px;
+  align-self : auto;
+  text-align : left;
+  font-family : Roboto;
+  font-weight : 400;
+  line-height : 130%;
+  font-stretch : normal;
+  margin-right : 0;
+  margin-bottom : 0;
+  text-decoration : none;
+  }
+  .text035 {
+  top : 2222px;
+  left : 851px;
+  color : rgb(0, 0, 0, 1);
+  width : 245px;
+  height : auto;
+  position : absolute;
+  font-size : 18px;
+  align-self : auto;
+  text-align : left;
+  font-family : Roboto;
+  font-weight : 400;
+  line-height : 130%;
+  font-stretch : normal;
+  margin-right : 0;
+  margin-bottom : 0;
+  text-decoration : none;
+  }
+  .text040 {
+  top : 1689px;
+  left : 730px;
+  color : rgb(0, 0, 0, 1);
+  width : 150px;
+  height : auto;
+  position : absolute;
+  font-size : 25px;
+  align-self : auto;
+  text-align : left;
+  font-family : Roboto;
+  font-weight : 700;
+  line-height : 130%;
+  font-stretch : normal;
+  margin-right : 0;
+  margin-bottom : 0;
+  text-decoration : none;
+  }
+  .text042 {
+  top : 2182px;
+  left : 467px;
+  color : rgb(30, 70, 129, 1);
+  width : 214px;
+  height : auto;
+  position : absolute;
+  font-size : 25px;
+  align-self : auto;
+  text-align : left;
+  font-family : Roboto;
+  font-weight : 700;
+  line-height : 130%;
+  font-stretch : normal;
+  margin-right : 0;
+  margin-bottom : 0;
+  text-decoration : none;
+  }
+  .text044 {
+  top : 1689px;
+  left : 973px;
+  color : rgb(0, 0, 0, 1);
+  width : 150px;
+  height : auto;
+  position : absolute;
+  font-size : 25px;
+  align-self : auto;
+  text-align : left;
+  font-family : Roboto;
+  font-weight : 700;
+  line-height : 130%;
+  font-stretch : normal;
+  margin-right : 0;
+  margin-bottom : 0;
+  text-decoration : none;
+  }
+  .text046 {
+  top : 2182px;
+  left : 851px;
+  color : rgb(30, 70, 129, 1);
+  width : 150px;
+  height : auto;
+  position : absolute;
+  font-size : 25px;
+  align-self : auto;
+  text-align : left;
+  font-family : Roboto;
+  font-weight : 700;
+  line-height : 130%;
+  font-stretch : normal;
+  margin-right : 0;
+  margin-bottom : 0;
+  text-decoration : none;
+  }
+  .text048 {
+  top : 187px;
+  left : 338px;
+  color : rgb(0, 0, 0, 1);
+  width : 130px;
+  height : auto;
+  position : absolute;
+  font-size : 20px;
+  align-self : auto;
+  text-align : left;
+  font-family : Roboto;
+  font-weight : 400;
+  line-height : 115%;
+  font-stretch : normal;
+  margin-right : 0;
+  margin-bottom : 0;
+  text-decoration : none;
+  }
+  .text050 {
+  top : 187px;
+  left : 500px;
+  color : rgb(0, 0, 0, 1);
+  width : 130px;
+  height : auto;
+  position : absolute;
+  font-size : 20px;
+  align-self : auto;
+  text-align : left;
+  font-family : Roboto;
+  font-weight : 400;
+  line-height : 115%;
+  font-stretch : normal;
+  margin-right : 0;
+  margin-bottom : 0;
+  text-decoration : none;
+  }
+  .text052 {
+  top : 187px;
+  left : 151px;
+  color : rgb(0, 0, 0, 1);
+  width : 130px;
+  height : auto;
+  position : absolute;
+  font-size : 20px;
+  align-self : auto;
+  text-align : left;
+  font-family : Roboto;
+  font-weight : 400;
+  line-height : 115%;
+  font-stretch : normal;
+  margin-right : 0;
+  margin-bottom : 0;
+  text-decoration : none;
+  }
+  .calendar2 {
+  top : 183px;
+  left : 467px;
+  width : 20px;
+  height : 22px;
+  position : absolute;
+  border-color : transparent;
+  }
+  .globe {
+  top : 184px;
+  left : 121px;
+  width : 22px;
+  height : 21px;
+  position : absolute;
+  border-color : transparent;
+  }
+  .img135744 {
+  top : 183px;
+  left : 306px;
+  width : 22px;
+  height : 22px;
+  position : absolute;
+  border-color : transparent;
+  }
+  .logomobileblack1 {
+  top : 21px;
+  left : 121px;
+  width : 112px;
+  height : 66px;
+  position : absolute;
+  border-color : transparent;
+  }
+  .group1 {
+  top : 666.62px;
+  left : 409.39px;
+  width : 483.63px;
+  height : 200.02px;
+  display : flex;
+  padding : 0;
+  position : absolute;
+  align-self : auto;
+  box-sizing : border-box;
+  align-items : flex-start;
+  flex-shrink : 1;
+  border-color : transparent;
+  border-style : none;
+  border-width : 0;
+  margin-right : 0;
+  border-radius : 0 0 0 0;
+  margin-bottom : 0;
+  flex-direction : row;
+  justify-content : flex-start;
+  background-color : transparent;
+  }
+  .rectangle1 {
+  top : 0;
+  left : 0;
+  width : 484px;
+  height : 200px;
+  position : absolute;
+  border-color : transparent;
+  border-radius : 5px;
+  }
+  .text054 {
+  top : 19.25px;
+  left : 26.03px;
+  color : rgb(255, 255, 255, 1);
+  width : 431px;
+  height : auto;
+  position : absolute;
+  font-size : 25px;
+  align-self : auto;
+  text-align : left;
+  font-family : "Roboto Slab";
+  font-weight : 400;
+  line-height : 130%;
+  font-stretch : normal;
+  text-decoration : none;
+  }
+  .text059 {
+  top : 154.37px;
+  left : 185px;
+  color : rgb(255, 255, 255, 1);
+  width : 280px;
+  height : auto;
+  position : absolute;
+  font-size : 20px;
+  align-self : auto;
+  text-align : right;
+  font-family : Roboto;
+  font-weight : 400;
+  line-height : 130%;
+  font-stretch : normal;
+  text-decoration : none;
+  }
+  .text061 {
+  top : 1151px;
+  left : 121px;
+  color : rgb(0, 0, 0, 1);
+  width : 662px;
+  height : auto;
+  position : absolute;
+  font-size : 24px;
+  align-self : auto;
+  text-align : left;
+  font-family : Roboto;
+  font-weight : 400;
+  line-height : 150%;
+  font-stretch : normal;
+  margin-right : 0;
+  margin-bottom : 0;
+  text-decoration : none;
+  }
+  .text068 {
+  top : 2624px;
+  left : 138px;
+  color : rgb(0, 0, 0, 1);
+  width : 662px;
+  height : auto;
+  position : absolute;
+  font-size : 24px;
+  align-self : auto;
+  text-align : left;
+  font-family : Roboto;
+  font-weight : 400;
+  line-height : 150%;
+  font-stretch : normal;
+  margin-right : 0;
+  margin-bottom : 0;
+  text-decoration : none;
+  }
+  .i-m-a-g-e11 {
+  top : 1175px;
+  left : 973px;
+  width : 314px;
+  height : 315px;
+  position : absolute;
+  border-color : transparent;
+  }
+  .photo1 {
+  top : 1619px;
+  left : 121px;
+  width : 232px;
+  height : 203px;
+  position : absolute;
+  border-color : transparent;
+  }
+  .text085 {
+  top : 1040px;
+  left : 121px;
+  color : rgb(0, 0, 0, 1);
+  width : 365px;
+  height : auto;
+  position : absolute;
+  font-size : 55px;
+  align-self : auto;
+  text-align : left;
+  font-family : "Roboto Slab";
+  font-weight : 700;
+  line-height : 101.38%;
+  font-stretch : normal;
+  margin-right : 0;
+  margin-bottom : 0;
+  text-decoration : none;
+  }
+  .text087 {
+  top : 2000px;
+  left : 121px;
+  color : rgb(0, 0, 0, 1);
+  width : 667px;
+  height : auto;
+  position : absolute;
+  font-size : 55px;
+  align-self : auto;
+  text-align : left;
+  font-family : "Roboto Slab";
+  font-weight : 700;
+  line-height : 101.38%;
+  font-stretch : normal;
+  margin-right : 0;
+  margin-bottom : 0;
+  text-decoration : none;
+  }
+  .text089 {
+  top : 2510px;
+  left : 121px;
+  color : rgb(0, 0, 0, 1);
+  width : 667px;
+  height : auto;
+  position : absolute;
+  font-size : 55px;
+  align-self : auto;
+  text-align : left;
+  font-family : "Roboto Slab";
+  font-weight : 700;
+  line-height : 101.38%;
+  font-stretch : normal;
+  margin-right : 0;
+  margin-bottom : 0;
+  text-decoration : none;
+  }
+  .text091 {
+  top : 3246px;
+  left : 121px;
+  color : rgb(0, 0, 0, 1);
+  width : 905px;
+  height : auto;
+  position : absolute;
+  font-size : 55px;
+  align-self : auto;
+  text-align : left;
+  font-family : "Roboto Slab";
+  font-weight : 700;
+  line-height : 101.38%;
+  font-stretch : normal;
+  margin-right : 0;
+  margin-bottom : 0;
+  text-decoration : none;
+  }
+  .ellipse6 {
+  top : 2637px;
+  left : 122px;
+  width : 6px;
+  height : 6px;
+  position : absolute;
+  border-color : transparent;
+  }
+  .ellipse7 {
+  top : 2674px;
+  left : 122px;
+  width : 6px;
+  height : 6px;
+  position : absolute;
+  border-color : transparent;
+  }
+  .ellipse8 {
+  top : 2710px;
+  left : 122px;
+  width : 6px;
+  height : 6px;
+  position : absolute;
+  border-color : transparent;
+  }
+  .ellipse9 {
+  top : 2783px;
+  left : 122px;
+  width : 6px;
+  height : 6px;
+  position : absolute;
+  border-color : transparent;
+  }
+  .ellipse10 {
+  top : 2854px;
+  left : 122px;
+  width : 6px;
+  height : 6px;
+  position : absolute;
+  border-color : transparent;
+  }
+  .ellipse11 {
+  top : 2926px;
+  left : 122px;
+  width : 6px;
+  height : 6px;
+  position : absolute;
+  border-color : transparent;
+  }
+  .ellipse12 {
+  top : 2998px;
+  left : 122px;
+  width : 6px;
+  height : 6px;
+  position : absolute;
+  border-color : transparent;
+  }
+  .rectangle4 {
+  top : 3434px;
+  left : 84px;
+  width : 399px;
+  height : 328px;
+  position : absolute;
+  border-color : transparent;
+  border-radius : 30px;
+  }
+  .rectangle10 {
+  top : 3803px;
+  left : 84px;
+  width : 399px;
+  height : 328px;
+  position : absolute;
+  border-color : transparent;
+  border-radius : 30px;
+  }
+  .rectangle16 {
+  top : 4176px;
+  left : 84px;
+  width : 399px;
+  height : 328px;
+  position : absolute;
+  border-color : transparent;
+  border-radius : 30px;
+  }
+  .rectangle6 {
+  top : 3434px;
+  left : 520px;
+  width : 399px;
+  height : 328px;
+  position : absolute;
+  border-color : transparent;
+  border-radius : 30px;
+  }
+  .rectangle11 {
+  top : 3803px;
+  left : 520px;
+  width : 399px;
+  height : 328px;
+  position : absolute;
+  border-color : transparent;
+  border-radius : 30px;
+  }
+  .rectangle17 {
+  top : 4176px;
+  left : 520px;
+  width : 399px;
+  height : 328px;
+  position : absolute;
+  border-color : transparent;
+  border-radius : 30px;
+  }
+  .rectangle8 {
+  top : 3434px;
+  left : 956px;
+  width : 399px;
+  height : 328px;
+  position : absolute;
+  border-color : transparent;
+  border-radius : 30px;
+  }
+  .rectangle12 {
+  top : 3803px;
+  left : 956px;
+  width : 399px;
+  height : 328px;
+  position : absolute;
+  border-color : transparent;
+  border-radius : 30px;
+  }
+  .rectangle5 {
+  top : 3434px;
+  left : 84px;
+  width : 375px;
+  height : 160px;
+  position : absolute;
+  margin: 10px;
+  }
+  .rectangle13 {
+  top : 3803px;
+  left : 84px;
+  width : 375px;
+  height : 160px;
+  position : absolute;
+  margin: 10px;
+  }
+  .rectangle19 {
+  top : 4176px;
+  left : 84px;
+  width : 375px;
+  height : 160px;
+  position : absolute;
+  margin: 10px;
+  }
+  .rectangle7 {
+  top : 3434px;
+  left : 520px;
+  width : 375px;
+  height : 160px;
+  position : absolute;
+  margin: 10px;
+  }
+  .rectangle14 {
+  top : 3803px;
+  left : 520px;
+  width : 375px;
+  height : 160px;
+  position : absolute;
+  margin: 10px;
+  }
+  .rectangle20 {
+  top : 4176px;
+  left : 520px;
+  width : 375px;
+  height : 160px;
+  position : absolute;
+  margin: 10px;
+  }
+  .rectangle9 {
+  top : 3434px;
+  left : 956px;
+  width : 375px;
+  height : 160px;
+  position : absolute;
+  margin: 10px;
+  }
+  .rectangle15 {
+  top : 3803px;
+  left : 956px;
+  width : 375px;
+  height : 160px;
+  position : absolute;
+  margin: 10px;
+  }
+  .text093 {
+  top : 3605px;
+  left : 104px;
+  color : rgb(0, 0, 0, 1);
+  width : 365px;
+  height : auto;
+  position : absolute;
+  font-size : 30px;
+  align-self : auto;
+  text-align : left;
+  font-family : Roboto;
+  font-weight : 700;
+  line-height : 130%;
+  font-stretch : normal;
+  margin-right : 0;
+  margin-bottom : 0;
+  text-decoration : none;
+  }
+  .text095 {
+  top : 3974px;
+  left : 104px;
+  color : rgb(0, 0, 0, 1);
+  width : 365px;
+  height : auto;
+  position : absolute;
+  font-size : 30px;
+  align-self : auto;
+  text-align : left;
+  font-family : Roboto;
+  font-weight : 700;
+  line-height : 130%;
+  font-stretch : normal;
+  margin-right : 0;
+  margin-bottom : 0;
+  text-decoration : none;
+  }
+  .text097 {
+  top : 4347px;
+  left : 104px;
+  color : rgb(0, 0, 0, 1);
+  width : 365px;
+  height : auto;
+  position : absolute;
+  font-size : 30px;
+  align-self : auto;
+  text-align : left;
+  font-family : Roboto;
+  font-weight : 700;
+  line-height : 130%;
+  font-stretch : normal;
+  margin-right : 0;
+  margin-bottom : 0;
+  text-decoration : none;
+  }
+  .text099 {
+  top : 3605px;
+  left : 540px;
+  color : rgb(0, 0, 0, 1);
+  width : 365px;
+  height : auto;
+  position : absolute;
+  font-size : 30px;
+  align-self : auto;
+  text-align : left;
+  font-family : Roboto;
+  font-weight : 700;
+  line-height : 130%;
+  font-stretch : normal;
+  margin-right : 0;
+  margin-bottom : 0;
+  text-decoration : none;
+  }
+  .text101 {
+  top : 3974px;
+  left : 540px;
+  color : rgb(0, 0, 0, 1);
+  width : 365px;
+  height : auto;
+  position : absolute;
+  font-size : 30px;
+  align-self : auto;
+  text-align : left;
+  font-family : Roboto;
+  font-weight : 700;
+  line-height : 130%;
+  font-stretch : normal;
+  margin-right : 0;
+  margin-bottom : 0;
+  text-decoration : none;
+  }
+  .text103 {
+  top : 4352px;
+  left : 540px;
+  color : rgb(0, 0, 0, 1);
+  width : 365px;
+  height : auto;
+  position : absolute;
+  font-size : 30px;
+  align-self : auto;
+  text-align : left;
+  font-family : Roboto;
+  font-weight : 700;
+  line-height : 97%;
+  font-stretch : normal;
+  margin-right : 0;
+  margin-bottom : 0;
+  text-decoration : none;
+  }
+  .text108 {
+  top : 3605px;
+  left : 976px;
+  color : rgb(0, 0, 0, 1);
+  width : 365px;
+  height : auto;
+  position : absolute;
+  font-size : 30px;
+  align-self : auto;
+  text-align : left;
+  font-family : Roboto;
+  font-weight : 700;
+  line-height : 130%;
+  font-stretch : normal;
+  margin-right : 0;
+  margin-bottom : 0;
+  text-decoration : none;
+  }
+  .text110 {
+  top : 3974px;
+  left : 976px;
+  color : rgb(0, 0, 0, 1);
+  width : 365px;
+  height : auto;
+  position : absolute;
+  font-size : 30px;
+  align-self : auto;
+  text-align : left;
+  font-family : Roboto;
+  font-weight : 700;
+  line-height : 130%;
+  font-stretch : normal;
+  margin-right : 0;
+  margin-bottom : 0;
+  text-decoration : none;
+  }
+  .text112 {
+  top : 3676px;
+  left : 103px;
+  color : rgb(0, 0, 0, 1);
+  width : 365px;
+  height : auto;
+  position : absolute;
+  font-size : 25px;
+  align-self : auto;
+  text-align : left;
+  font-family : Roboto;
+  font-weight : 400;
+  line-height : 130%;
+  font-stretch : normal;
+  margin-right : 0;
+  margin-bottom : 0;
+  text-decoration : none;
+  }
+  .text117 {
+  top : 4045px;
+  left : 103px;
+  color : rgb(0, 0, 0, 1);
+  width : 365px;
+  height : auto;
+  position : absolute;
+  font-size : 25px;
+  align-self : auto;
+  text-align : left;
+  font-family : Roboto;
+  font-weight : 400;
+  line-height : 130%;
+  font-stretch : normal;
+  margin-right : 0;
+  margin-bottom : 0;
+  text-decoration : none;
+  }
+  .text122 {
+  top : 4418px;
+  left : 103px;
+  color : rgb(0, 0, 0, 1);
+  width : 365px;
+  height : auto;
+  position : absolute;
+  font-size : 25px;
+  align-self : auto;
+  text-align : left;
+  font-family : Roboto;
+  font-weight : 400;
+  line-height : 130%;
+  font-stretch : normal;
+  margin-right : 0;
+  margin-bottom : 0;
+  text-decoration : none;
+  }
+  .text127 {
+  top : 3676px;
+  left : 539px;
+  color : rgb(0, 0, 0, 1);
+  width : 365px;
+  height : auto;
+  position : absolute;
+  font-size : 25px;
+  align-self : auto;
+  text-align : left;
+  font-family : Roboto;
+  font-weight : 400;
+  line-height : 130%;
+  font-stretch : normal;
+  margin-right : 0;
+  margin-bottom : 0;
+  text-decoration : none;
+  }
+  .text132 {
+  top : 4045px;
+  left : 539px;
+  color : rgb(0, 0, 0, 1);
+  width : 365px;
+  height : auto;
+  position : absolute;
+  font-size : 25px;
+  align-self : auto;
+  text-align : left;
+  font-family : Roboto;
+  font-weight : 400;
+  line-height : 130%;
+  font-stretch : normal;
+  margin-right : 0;
+  margin-bottom : 0;
+  text-decoration : none;
+  }
+  .text137 {
+  top : 4418px;
+  left : 539px;
+  color : rgb(0, 0, 0, 1);
+  width : 365px;
+  height : auto;
+  position : absolute;
+  font-size : 25px;
+  align-self : auto;
+  text-align : left;
+  font-family : Roboto;
+  font-weight : 400;
+  line-height : 130%;
+  font-stretch : normal;
+  margin-right : 0;
+  margin-bottom : 0;
+  text-decoration : none;
+  }
+  .text142 {
+  top : 3676px;
+  left : 975px;
+  color : rgb(0, 0, 0, 1);
+  width : 365px;
+  height : auto;
+  position : absolute;
+  font-size : 25px;
+  align-self : auto;
+  text-align : left;
+  font-family : Roboto;
+  font-weight : 400;
+  line-height : 130%;
+  font-stretch : normal;
+  margin-right : 0;
+  margin-bottom : 0;
+  text-decoration : none;
+  }
+  .text147 {
+  top : 4045px;
+  left : 975px;
+  color : rgb(0, 0, 0, 1);
+  width : 365px;
+  height : auto;
+  position : absolute;
+  font-size : 25px;
+  align-self : auto;
+  text-align : left;
+  font-family : Roboto;
+  font-weight : 400;
+  line-height : 130%;
+  font-stretch : normal;
+  margin-right : 0;
+  margin-bottom : 0;
+  text-decoration : none;
+  }
+  .rectangle22 {
+  top : 4625px;
+  left : -1px;
+  width : 1440px;
+  height : 780px;
+  position : absolute;
+  border-color : transparent;
+   }
+  .rectangle23 {
+  top : 5405px;
+  left : -1px;
+  width : 1440px;
+  height : 780px;
+  position : absolute;
+  border-color : transparent;
+  }
+  .rectangle24 {
+  top : 6185px;
+  left : -1px;
+  width : 1440px;
+  height : 390px;
+  position : absolute;
+  border-color : transparent;
+  }
+  .text152 {
+  top : 4716px;
+  left : 121px;
+  color : rgb(0, 0, 0, 1);
+  width : 987px;
+  height : auto;
+  position : absolute;
+  font-size : 55px;
+  align-self : auto;
+  text-align : left;
+  font-family : "Roboto Slab";
+  font-weight : 700;
+  line-height : 101.38%;
+  font-stretch : normal;
+  margin-right : 0;
+  margin-bottom : 0;
+  text-decoration : none;
+  }
+  .text154 {
+  top : 5584px;
+  left : 121px;
+  color : rgb(0, 0, 0, 1);
+  width : 908px;
+  height : auto;
+  position : absolute;
+  font-size : 55px;
+  align-self : auto;
+  text-align : left;
+  font-family : "Roboto Slab";
+  font-weight : 700;
+  line-height : 101.38%;
+  font-stretch : normal;
+  margin-right : 0;
+  margin-bottom : 0;
+  text-decoration : none;
+  }
+  .text156 {
+  top : 5734px;
+  left : 121px;
+  color : rgb(0, 0, 0, 1);
+  width : 481px;
+  height : auto;
+  position : absolute;
+  font-size : 80px;
+  align-self : auto;
+  text-align : left;
+  font-family : Roboto;
+  font-weight : 400;
+  line-height : 101.38%;
+  font-stretch : normal;
+  margin-right : 0;
+  margin-bottom : 0;
+  text-decoration : none;
+  }
+  .text158 {
+  top : 5704px;
+  left : 121px;
+  color : rgb(0, 0, 0, 1);
+  width : 170px;
+  height : auto;
+  position : absolute;
+  font-size : 25px;
+  align-self : auto;
+  text-align : left;
+  font-family : Roboto;
+  font-weight : 400;
+  line-height : 101.38%;
+  font-stretch : normal;
+  margin-right : 0;
+  margin-bottom : 0;
+  text-decoration : none;
+  }
+  .text160 {
+  top : 5889px;
+  left : 121px;
+  color : rgb(0, 0, 0, 1);
+  width : 294px;
+  height : auto;
+  position : absolute;
+  font-size : 25px;
+  align-self : auto;
+  text-align : left;
+  font-family : Roboto;
+  font-weight : 400;
+  line-height : 101.38%;
+  font-stretch : normal;
+  margin-right : 0;
+  margin-bottom : 0;
+  text-decoration : none;
+  }
+  .text162 {
+  top : 5930px;
+  left : 121px;
+  color : rgb(0, 0, 0, 1);
+  width : 294px;
+  height : auto;
+  position : absolute;
+  font-size : 18px;
+  align-self : auto;
+  text-align : left;
+  font-family : Roboto;
+  font-weight : 400;
+  line-height : 101.38%;
+  font-stretch : normal;
+  margin-right : 0;
+  margin-bottom : 0;
+  text-decoration : none;
+  }
+  .text164 {
+  top : 6512px;
+  left : 121px;
+  color : rgb(255, 255, 255, 1);
+  width : 230px;
+  height : auto;
+  position : absolute;
+  font-size : 18px;
+  align-self : auto;
+  text-align : left;
+  font-family : Roboto;
+  font-weight : 400;
+  line-height : 101.38%;
+  font-stretch : normal;
+  margin-right : 0;
+  margin-bottom : 0;
+  text-decoration : none;
+  }
+  .text166 {
+  top : 6244px;
+  left : 1024px;
+  color : rgb(255, 255, 255, 1);
+  width : 230px;
+  height : auto;
+  position : absolute;
+  font-size : 25px;
+  align-self : auto;
+  text-align : left;
+  font-family : Roboto;
+  font-weight : 400;
+  line-height : 101.38%;
+  font-stretch : normal;
+  margin-right : 0;
+  margin-bottom : 0;
+  text-decoration : none;
+  }
+  .text168 {
+  top : 6287px;
+  left : 1024px;
+  color : rgb(255, 255, 255, 1);
+  width : 269px;
+  height : auto;
+  position : absolute;
+  font-size : 25px;
+  align-self : auto;
+  text-align : left;
+  font-family : Roboto;
+  font-weight : 400;
+  line-height : 101.38%;
+  font-stretch : normal;
+  margin-right : 0;
+  margin-bottom : 0;
+  text-decoration : none;
+  }
+  .text170 {
+  top : 5930px;
+  left : 485px;
+  color : rgb(0, 0, 0, 1);
+  width : 294px;
+  height : auto;
+  position : absolute;
+  font-size : 18px;
+  align-self : auto;
+  text-align : left;
+  font-family : Roboto;
+  font-weight : 400;
+  line-height : 101.38%;
+  font-stretch : normal;
+  margin-right : 0;
+  margin-bottom : 0;
+  text-decoration : none;
+  }
+  .text172 {
+  top : 5889px;
+  left : 485px;
+  color : rgb(0, 0, 0, 1);
+  width : 322px;
+  height : auto;
+  position : absolute;
+  font-size : 25px;
+  align-self : auto;
+  text-align : left;
+  font-family : Roboto;
+  font-weight : 400;
+  line-height : 101.38%;
+  font-stretch : normal;
+  margin-right : 0;
+  margin-bottom : 0;
+  text-decoration : none;
+  }
+  .group7 {
+  top : 4843px;
+  left : 125px;
+  width : 791px;
+  height : 451px;
+  display : flex;
+  padding : 0;
+  position : absolute;
+  align-self : auto;
+  box-sizing : border-box;
+  align-items : flex-start;
+  flex-shrink : 1;
+  border-color : transparent;
+  border-style : none;
+  border-width : 0;
+  margin-right : 0;
+  border-radius : 30px;
+  margin-bottom : 0;
+  flex-direction : row;
+  justify-content : flex-start;
+  background-color : rgb(255, 255, 255, 1);
+  }
+  .text174 {
+  top : 40px;
+  left : 45px;
+  color : rgb(0, 0, 0, 1);
+  width : 700px;
+  height : auto;
+  position : absolute;
+  font-size : 20px;
+  align-self : auto;
+  text-align : left;
+  font-family : Roboto;
+  font-weight : 400;
+  line-height : 150%;
+  font-stretch : normal;
+  text-decoration : none;
+  }
+  .i-m-a-g-e19 {
+  top : 5096px;
+  left : 151px;
+  width : 190px;
+  height : 169px;
+  position : absolute;
+  border-color : transparent;
+  }
+  .text176 {
+  top : 5136px;
+  left : 371px;
+  color : rgb(0, 0, 0, 1);
+  width : 353px;
+  height : auto;
+  position : absolute;
+  font-size : 30px;
+  align-self : auto;
+  text-align : left;
+  font-family : "Roboto Slab";
+  font-weight : 700;
+  line-height : 101.38%;
+  font-stretch : normal;
+  margin-right : 0;
+  margin-bottom : 0;
+  text-decoration : none;
+  }
+  .fb21 {
+  top : 5195px;
+  left : 371px;
+  width : 32px;
+  height : 31px;
+  position : absolute;
+  border-color : transparent;
+  }
+  .logomobilewhite1 {
+  top : 6235px;
+  left : 121px;
+  width : 115px;
+  height : 68px;
+  position : absolute;
+  border-color : transparent;
+  }
+  .noroot2 {
+  top : 6332px;
+  left : 285px;
+  width : 34px;
+  height : 34px;
+  position : absolute;
+  border-color : transparent;
+  }
+  .fb {
+  top : 6333px;
+  left : 172px;
+  width : 32px;
+  height : 32px;
+  position : absolute;
+  border-color : transparent;
+  }
+  .noroot4 {
+  top : 6333px;
+  left : 121px;
+  width : 33px;
+  height : 33px;
+  position : absolute;
+  border-color : transparent;
+  }
+  .i-m-a-g-e256841 {
+  top : 6331px;
+  left : 225px;
+  width : 35px;
+  height : 35px;
+  position : absolute;
+  border-color : transparent;
+  }
+  .mailwhite {
+  top : 6291px;
+  left : 975px;
+  width : 27px;
+  height : 18px;
+  position : absolute;
+  border-color : transparent;
+  }
+  .phonewhite {
+  top : 6239px;
+  left : 975px;
+  width : 27px;
+  height : 27px;
+  position : absolute;
+  border-color : transparent;
+  }
+  @media (max-width: 1279px) {
+  .container {
+  min-height : 100vh;
+  }
+  .main {
+  width : 100%;
+  height : 3800px;
+  display : flex;
+  overflow : hidden;
+  position : relative;
+  align-items : flex-start;
+  flex-shrink : 0;
+  border-color : transparent;
+  background-color : rgb(255, 255, 255, 1);
+  }
+  .ellipse3 {
+  top : 1055.8125px;
+  left : 89.19140625px;
+  width : 109px;
+  height : 19px;
+  position : absolute;
+  border-color : transparent;
+  }
+  .ellipse2 {
+  top : 855.4208984375px;
+  left : 548.470947265625px;
+  width : 212px;
+  height : 34px;
+  position : absolute;
+  border-color : transparent;
+  }
+  .ellipse1 {
+  top : 333.0125427246094px;
+  left : 533.41259765625px;
+  width : 159px;
+  height : 24px;
+  position : absolute;
+  border-color : transparent;
+  }
+  .noroot1 {
+  top : 138.99163818359375px;
+  left : 515.4580078125px;
+  width : 176px;
+  height : 206px;
+  position : absolute;
+  border-color : transparent;
+  }
+  .text {
+  top : 144.20px;
+  left : 70.66px;
+  color : rgb(0, 0, 0, 1);
+  width : 364px;
+  height : auto;
+  position : absolute;
+  font-size : 46px;
+  align-self : auto;
+  text-align : left;
+  font-family : "Roboto Slab";
+  font-weight : 700;
+  line-height : 101.38%;
+  font-stretch : normal;
+  margin-right : 0;
+  margin-bottom : 0;
+  text-decoration : none;
+  }
+  .text002 {
+  top : 257px;
+  left : 71px;
+  color : rgb(0, 0, 0, 1);
+  width : 264px;
+  height : auto;
+  position : absolute;
+  font-size : 12px;
+  align-self : auto;
+  text-align : left;
+  font-family : Roboto;
+  font-weight : 400;
+  line-height : 150%;
+  font-stretch : normal;
+  margin-right : 0;
+  margin-bottom : 0;
+  text-decoration : none;
+  }
+  .text007 {
+  top : 988.05px;
+  left : 280.90px;
+  color : rgb(0, 0, 0, 1);
+  width : 87px;
+  height : auto;
+  position : absolute;
+  font-size : 15px;
+  align-self : auto;
+  text-align : left;
+  font-family : Roboto;
+  font-weight : 700;
+  line-height : 130%;
+  font-stretch : normal;
+  margin-right : 0;
+  margin-bottom : 0;
+  text-decoration : none;
+  }
+  .text009 {
+  top : 1273.58px;
+  left : 70.66px;
+  color : rgb(30, 70, 129, 1);
+  width : 87px;
+  height : auto;
+  position : absolute;
+  font-size : 15px;
+  align-self : auto;
+  text-align : left;
+  font-family : Roboto;
+  font-weight : 700;
+  line-height : 130%;
+  font-stretch : normal;
+  margin-right : 0;
+  margin-bottom : 0;
+  text-decoration : none;
+  }
+  .text011 {
+  top : 1011.21px;
+  left : 280.89px;
+  color : rgb(0, 0, 0, 1);
+  width : 87px;
+  height : auto;
+  position : absolute;
+  font-size : 11px;
+  align-self : auto;
+  text-align : left;
+  font-family : Roboto;
+  font-weight : 400;
+  line-height : 130%;
+  font-stretch : normal;
+  margin-right : 0;
+  margin-bottom : 0;
+  text-decoration : none;
+  }
+  .text016 {
+  top : 1297px;
+  left : 71px;
+  color : rgb(0, 0, 0, 1);
+  width : 153px;
+  height : auto;
+  position : absolute;
+  font-size : 11px;
+  align-self : auto;
+  text-align : left;
+  font-family : Roboto;
+  font-weight : 400;
+  line-height : 130%;
+  font-stretch : normal;
+  margin-right : 0;
+  margin-bottom : 0;
+  text-decoration : none;
+  }
+  .text023 {
+  top : 1011px;
+  left : 423px;
+  color : rgb(0, 0, 0, 1);
+  width : 108px;
+  height : auto;
+  position : absolute;
+  font-size : 11px;
+  align-self : auto;
+  text-align : left;
+  font-family : Roboto;
+  font-weight : 400;
+  line-height : 130%;
+  font-stretch : normal;
+  margin-right : 0;
+  margin-bottom : 0;
+  text-decoration : none;
+  }
+  .text028 {
+  top : 1297px;
+  left : 270px;
+  color : rgb(0, 0, 0, 1);
+  width : 172px;
+  height : auto;
+  position : absolute;
+  font-size : 11px;
+  align-self : auto;
+  text-align : left;
+  font-family : Roboto;
+  font-weight : 400;
+  line-height : 130%;
+  font-stretch : normal;
+  margin-right : 0;
+  margin-bottom : 0;
+  text-decoration : none;
+  }
+  .text030 {
+  top : 1011.21px;
+  left : 563.53px;
+  color : rgb(0, 0, 0, 1);
+  width : 87px;
+  height : auto;
+  position : absolute;
+  font-size : 11px;
+  align-self : auto;
+  text-align : left;
+  font-family : Roboto;
+  font-weight : 400;
+  line-height : 130%;
+  font-stretch : normal;
+  margin-right : 0;
+  margin-bottom : 0;
+  text-decoration : none;
+  }
+  .text035 {
+  top : 1296.74px;
+  left : 492.87px;
+  color : rgb(0, 0, 0, 1);
+  width : 142px;
+  height : auto;
+  position : absolute;
+  font-size : 11px;
+  align-self : auto;
+  text-align : left;
+  font-family : Roboto;
+  font-weight : 400;
+  line-height : 130%;
+  font-stretch : normal;
+  margin-right : 0;
+  margin-bottom : 0;
+  text-decoration : none;
+  }
+  .text040 {
+  top : 988.05px;
+  left : 422.80px;
+  color : rgb(0, 0, 0, 1);
+  width : 87px;
+  height : auto;
+  position : absolute;
+  font-size : 15px;
+  align-self : auto;
+  text-align : left;
+  font-family : Roboto;
+  font-weight : 700;
+  line-height : 130%;
+  font-stretch : normal;
+  margin-right : 0;
+  margin-bottom : 0;
+  text-decoration : none;
+  }
+  .text042 {
+  top : 1273.58px;
+  left : 270.47px;
+  color : rgb(30, 70, 129, 1);
+  width : 124px;
+  height : auto;
+  position : absolute;
+  font-size : 15px;
+  align-self : auto;
+  text-align : left;
+  font-family : Roboto;
+  font-weight : 700;
+  line-height : 130%;
+  font-stretch : normal;
+  margin-right : 0;
+  margin-bottom : 0;
+  text-decoration : none;
+  }
+  .text044 {
+  top : 988.05px;
+  left : 563.53px;
+  color : rgb(0, 0, 0, 1);
+  width : 87px;
+  height : auto;
+  position : absolute;
+  font-size : 15px;
+  align-self : auto;
+  text-align : left;
+  font-family : Roboto;
+  font-weight : 700;
+  line-height : 130%;
+  font-stretch : normal;
+  margin-right : 0;
+  margin-bottom : 0;
+  text-decoration : none;
+  }
+  .text046 {
+  top : 1273.58px;
+  left : 492.87px;
+  color : rgb(30, 70, 129, 1);
+  width : 87px;
+  height : auto;
+  position : absolute;
+  font-size : 15px;
+  align-self : auto;
+  text-align : left;
+  font-family : Roboto;
+  font-weight : 700;
+  line-height : 130%;
+  font-stretch : normal;
+  margin-right : 0;
+  margin-bottom : 0;
+  text-decoration : none;
+  }
+  .text048 {
+  top : 118.14px;
+  left : 195.75px;
+  color : rgb(0, 0, 0, 1);
+  width : 75px;
+  height : auto;
+  position : absolute;
+  font-size : 12px;
+  align-self : auto;
+  text-align : left;
+  font-family : Roboto;
+  font-weight : 400;
+  line-height : 115%;
+  font-stretch : normal;
+  margin-right : 0;
+  margin-bottom : 0;
+  text-decoration : none;
+  }
+  .text050 {
+  top : 118.14px;
+  left : 289.58px;
+  color : rgb(0, 0, 0, 1);
+  width : 75px;
+  height : auto;
+  position : absolute;
+  font-size : 12px;
+  align-self : auto;
+  text-align : left;
+  font-family : Roboto;
+  font-weight : 400;
+  line-height : 115%;
+  font-stretch : normal;
+  margin-right : 0;
+  margin-bottom : 0;
+  text-decoration : none;
+  }
+  .text052 {
+  top : 118.14px;
+  left : 87.45px;
+  color : rgb(0, 0, 0, 1);
+  width : 75px;
+  height : auto;
+  position : absolute;
+  font-size : 12px;
+  align-self : auto;
+  text-align : left;
+  font-family : Roboto;
+  font-weight : 400;
+  line-height : 115%;
+  font-stretch : normal;
+  margin-right : 0;
+  margin-bottom : 0;
+  text-decoration : none;
+  }
+  .calendar2 {
+  top : 115.82px;
+  left : 270.47px;
+  width : 12px;
+  height : 13px;
+  position : absolute;
+  border-color : transparent;
+  }
+  .globe {
+  top : 116.40px;
+  left : 70.08px;
+  width : 13px;
+  height : 12px;
+  position : absolute;
+  border-color : transparent;
+  }
+  .img135744 {
+  top : 115.82px;
+  left : 177.22px;
+  width : 13px;
+  height : 13px;
+  position : absolute;
+  border-color : transparent;
+  }
+  .logomobileblack1 {
+  top : 22px;
+  left : 70.08px;
+  width : 65px;
+  height : 38px;
+  position : absolute;
+  border-color : transparent;
+  }
+  .group1 {
+  top : 395.92px;
+  left : 237.10px;
+  width : 280.10px;
+  height : 115.83px;
+  display : flex;
+  padding : 0;
+  position : absolute;
+  align-self : auto;
+  box-sizing : border-box;
+  align-items : flex-start;
+  flex-shrink : 1;
+  border-color : transparent;
+  border-style : none;
+  border-width : 0;
+  margin-right : 0;
+  border-radius : 0 0 0 0;
+  margin-bottom : 0;
+  flex-direction : row;
+  justify-content : flex-start;
+  background-color : transparent;
+  }
+  .rectangle1 {
+  top : 0;
+  left : 0;
+  width : 280px;
+  height : 116px;
+  position : absolute;
+  border-color : transparent;
+  border-radius : 2.90px;
+  }
+  .text054 {
+  top : 11.15px;
+  left : 15.07px;
+  color : rgb(255, 255, 255, 1);
+  width : 249px;
+  height : auto;
+  position : absolute;
+  font-size : 14px;
+  align-self : auto;
+  text-align : left;
+  font-family : "Roboto Slab";
+  font-weight : 400;
+  line-height : 130%;
+  font-stretch : normal;
+  text-decoration : none;
+  }
+  .text059 {
+  top : 85.19px;
+  left : 108.22px;
+  color : rgb(255, 255, 255, 1);
+  width : 162px;
+  height : auto;
+  position : absolute;
+  font-size : 12px;
+  align-self : auto;
+  text-align : right;
+  font-family : Roboto;
+  font-weight : 400;
+  line-height : 130%;
+  font-stretch : normal;
+  text-decoration : none;
+  }
+  .text061 {
+  top : 676.45px;
+  left : 70.08px;
+  color : rgb(0, 0, 0, 1);
+  width : 383px;
+  height : auto;
+  position : absolute;
+  font-size : 14px;
+  align-self : auto;
+  text-align : left;
+  font-family : Roboto;
+  font-weight : 400;
+  line-height : 150%;
+  font-stretch : normal;
+  margin-right : 0;
+  margin-bottom : 0;
+  text-decoration : none;
+  }
+  .text068 {
+  top : 1529.57px;
+  left : 80px;
+  color : rgb(0, 0, 0, 1);
+  width : 383px;
+  height : auto;
+  position : absolute;
+  font-size : 14px;
+  align-self : auto;
+  text-align : left;
+  font-family : Roboto;
+  font-weight : 400;
+  line-height : 150%;
+  font-stretch : normal;
+  margin-right : 0;
+  margin-bottom : 0;
+  text-decoration : none;
+  }
+  .i-m-a-g-e11 {
+  top : 690.35px;
+  left : 563.53px;
+  width : 182px;
+  height : 182px;
+  position : absolute;
+  border-color : transparent;
+  }
+  .photo1 {
+  top : 947.50px;
+  left : 70.08px;
+  width : 134px;
+  height : 118px;
+  position : absolute;
+  border-color : transparent;
+  }
+  .text085 {
+  top : 612.17px;
+  left : 70.08px;
+  color : rgb(0, 0, 0, 1);
+  width : 211px;
+  height : auto;
+  position : absolute;
+  font-size : 32px;
+  align-self : auto;
+  text-align : left;
+  font-family : "Roboto Slab";
+  font-weight : 700;
+  line-height : 101.38%;
+  font-stretch : normal;
+  margin-right : 0;
+  margin-bottom : 0;
+  text-decoration : none;
+  }
+  .text087 {
+  top : 1168.17px;
+  left : 70.08px;
+  color : rgb(0, 0, 0, 1);
+  width : 386px;
+  height : auto;
+  position : absolute;
+  font-size : 32px;
+  align-self : auto;
+  text-align : left;
+  font-family : "Roboto Slab";
+  font-weight : 700;
+  line-height : 101.38%;
+  font-stretch : normal;
+  margin-right : 0;
+  margin-bottom : 0;
+  text-decoration : none;
+  }
+  .text089 {
+  top : 1463.54px;
+  left : 70.08px;
+  color : rgb(0, 0, 0, 1);
+  width : 386px;
+  height : auto;
+  position : absolute;
+  font-size : 32px;
+  align-self : auto;
+  text-align : left;
+  font-family : "Roboto Slab";
+  font-weight : 700;
+  line-height : 101.38%;
+  font-stretch : normal;
+  margin-right : 0;
+  margin-bottom : 0;
+  text-decoration : none;
+  }
+  .text091 {
+  top : 1889.81px;
+  left : 70.08px;
+  color : rgb(0, 0, 0, 1);
+  width : 524px;
+  height : auto;
+  position : absolute;
+  font-size : 32px;
+  align-self : auto;
+  text-align : left;
+  font-family : "Roboto Slab";
+  font-weight : 700;
+  line-height : 101.38%;
+  font-stretch : normal;
+  margin-right : 0;
+  margin-bottom : 0;
+  text-decoration : none;
+  }
+  .ellipse6 {
+  top : 1537.10px;
+  left : 70.65px;
+  width : 3px;
+  height : 3px;
+  position : absolute;
+  border-color : transparent;
+  }
+  .ellipse7 {
+  top : 1558.53px;
+  left : 70.65px;
+  width : 3px;
+  height : 3px;
+  position : absolute;
+  border-color : transparent;
+  }
+  .ellipse8 {
+  top : 1579.38px;
+  left : 70.65px;
+  width : 3px;
+  height : 3px;
+  position : absolute;
+  border-color : transparent;
+  }
+  .ellipse9 {
+  top : 1621.65px;
+  left : 70.65px;
+  width : 3px;
+  height : 3px;
+  position : absolute;
+  border-color : transparent;
+  }
+  .ellipse10 {
+  top : 1662.78px;
+  left : 70.65px;
+  width : 3px;
+  height : 3px;
+  position : absolute;
+  border-color : transparent;
+  }
+  .ellipse11 {
+  top : 1705.48px;
+  left : 70.65px;
+  width : 3px;
+  height : 3px;
+  position : absolute;
+  border-color : transparent;
+  }
+  .ellipse12 {
+  top : 1747.18px;
+  left : 70.65px;
+  width : 3px;
+  height : 3px;
+  position : absolute;
+  border-color : transparent;
+  }
+  .rectangle4 {
+  top : 1998.70px;
+  left : 48.65px;
+  width : 231px;
+  height : 190px;
+  position : absolute;
+  border-color : transparent;
+  border-radius : 17.375px;
+  }
+  .rectangle10 {
+  top : 2212.40px;
+  left : 48.65px;
+  width : 231px;
+  height : 190px;
+  position : absolute;
+  border-color : transparent;
+  border-radius : 17.375px;
+  }
+  .rectangle16 {
+  top : 2428.43px;
+  left : 48.65px;
+  width : 231px;
+  height : 190px;
+  position : absolute;
+  border-color : transparent;
+  border-radius : 17.375px;
+  }
+  .rectangle6 {
+  top : 1998.70px;
+  left : 301.16px;
+  width : 231px;
+  height : 190px;
+  position : absolute;
+  border-color : transparent;
+  border-radius : 17.375px;
+  }
+  .rectangle11 {
+  top : 2212.40px;
+  left : 301.16px;
+  width : 231px;
+  height : 190px;
+  position : absolute;
+  border-color : transparent;
+  border-radius : 17.375px;
+  }
+  .rectangle17 {
+  top : 2428.43px;
+  left : 301.16px;
+  width : 231px;
+  height : 190px;
+  position : absolute;
+  border-color : transparent;
+  border-radius : 17.375px;
+  }
+  .rectangle8 {
+  top : 1998.70px;
+  left : 553.68px;
+  width : 231px;
+  height : 190px;
+  position : absolute;
+  border-color : transparent;
+  border-radius : 17.375px;
+  }
+  .rectangle12 {
+  top : 2212.40px;
+  left : 553.68px;
+  width : 231px;
+  height : 190px;
+  position : absolute;
+  border-color : transparent;
+  border-radius : 17.375px;
+  }
+  .rectangle5 {
+  top : 1998.70px;
+  left : 48.65px;
+  width : 218px;
+  height : 93px;
+  position : absolute;
+  margin: 5px;
+  }
+  .rectangle13 {
+  top : 2212.40px;
+  left : 48.65px;
+  width : 218px;
+  height : 93px;
+  position : absolute;
+  margin: 5px;
+  }
+  .rectangle19 {
+  top : 2428.43px;
+  left : 48.65px;
+  width : 218px;
+  height : 93px;
+  position : absolute;
+  margin: 5px;
+  }
+  .rectangle7 {
+  top : 1998.70px;
+  left : 301.16px;
+  width : 218px;
+  height : 93px;
+  position : absolute;
+  margin: 5px;
+  }
+  .rectangle14 {
+  top : 2212.40px;
+  left : 301.16px;
+  width : 218px;
+  height : 93px;
+  position : absolute;
+  margin: 5px;
+  }
+  .rectangle20 {
+  top : 2428.43px;
+  left : 301.16px;
+  width : 218px;
+  height : 93px;
+  position : absolute;
+  margin: 5px;
+  }
+  .rectangle9 {
+  top : 1998.70px;
+  left : 553.68px;
+  width : 218px;
+  height : 93px;
+  position : absolute;
+  margin: 5px;
+  }
+  .rectangle15 {
+  top : 2212.40px;
+  left : 553.68px;
+  width : 218px;
+  height : 93px;
+  position : absolute;
+  margin: 5px;
+  }
+  .text093 {
+  top : 2097.73px;
+  left : 60.23px;
+  color : rgb(0, 0, 0, 1);
+  width : 211px;
+  height : auto;
+  position : absolute;
+  font-size : 17px;
+  align-self : auto;
+  text-align : left;
+  font-family : Roboto;
+  font-weight : 700;
+  line-height : 130%;
+  font-stretch : normal;
+  margin-right : 0;
+  margin-bottom : 0;
+  text-decoration : none;
+  }
+  .text095 {
+  top : 2311.44px;
+  left : 60.23px;
+  color : rgb(0, 0, 0, 1);
+  width : 211px;
+  height : auto;
+  position : absolute;
+  font-size : 17px;
+  align-self : auto;
+  text-align : left;
+  font-family : Roboto;
+  font-weight : 700;
+  line-height : 130%;
+  font-stretch : normal;
+  margin-right : 0;
+  margin-bottom : 0;
+  text-decoration : none;
+  }
+  .text097 {
+  top : 2527.47px;
+  left : 60.23px;
+  color : rgb(0, 0, 0, 1);
+  width : 211px;
+  height : auto;
+  position : absolute;
+  font-size : 17px;
+  align-self : auto;
+  text-align : left;
+  font-family : Roboto;
+  font-weight : 700;
+  line-height : 130%;
+  font-stretch : normal;
+  margin-right : 0;
+  margin-bottom : 0;
+  text-decoration : none;
+  }
+  .text099 {
+  top : 2097.73px;
+  left : 312.75px;
+  color : rgb(0, 0, 0, 1);
+  width : 211px;
+  height : auto;
+  position : absolute;
+  font-size : 17px;
+  align-self : auto;
+  text-align : left;
+  font-family : Roboto;
+  font-weight : 700;
+  line-height : 130%;
+  font-stretch : normal;
+  margin-right : 0;
+  margin-bottom : 0;
+  text-decoration : none;
+  }
+  .text101 {
+  top : 2311.44px;
+  left : 312.75px;
+  color : rgb(0, 0, 0, 1);
+  width : 211px;
+  height : auto;
+  position : absolute;
+  font-size : 17px;
+  align-self : auto;
+  text-align : left;
+  font-family : Roboto;
+  font-weight : 700;
+  line-height : 130%;
+  font-stretch : normal;
+  margin-right : 0;
+  margin-bottom : 0;
+  text-decoration : none;
+  }
+  .text103 {
+  top : 2530.37px;
+  left : 312.75px;
+  color : rgb(0, 0, 0, 1);
+  width : 211px;
+  height : auto;
+  position : absolute;
+  font-size : 17px;
+  align-self : auto;
+  text-align : left;
+  font-family : Roboto;
+  font-weight : 700;
+  line-height : 97%;
+  font-stretch : normal;
+  margin-right : 0;
+  margin-bottom : 0;
+  text-decoration : none;
+  }
+  .text108 {
+  top : 2097.73px;
+  left : 565.26px;
+  color : rgb(0, 0, 0, 1);
+  width : 211px;
+  height : auto;
+  position : absolute;
+  font-size : 17px;
+  align-self : auto;
+  text-align : left;
+  font-family : Roboto;
+  font-weight : 700;
+  line-height : 130%;
+  font-stretch : normal;
+  margin-right : 0;
+  margin-bottom : 0;
+  text-decoration : none;
+  }
+  .text110 {
+  top : 2311.44px;
+  left : 565.26px;
+  color : rgb(0, 0, 0, 1);
+  width : 211px;
+  height : auto;
+  position : absolute;
+  font-size : 17px;
+  align-self : auto;
+  text-align : left;
+  font-family : Roboto;
+  font-weight : 700;
+  line-height : 130%;
+  font-stretch : normal;
+  margin-right : 0;
+  margin-bottom : 0;
+  text-decoration : none;
+  }
+  .text112 {
+  top : 2138.85px;
+  left : 59.65px;
+  color : rgb(0, 0, 0, 1);
+  width : 211px;
+  height : auto;
+  position : absolute;
+  font-size : 14px;
+  align-self : auto;
+  text-align : left;
+  font-family : Roboto;
+  font-weight : 400;
+  line-height : 130%;
+  font-stretch : normal;
+  margin-right : 0;
+  margin-bottom : 0;
+  text-decoration : none;
+  }
+  .text117 {
+  top : 2352.56px;
+  left : 59.65px;
+  color : rgb(0, 0, 0, 1);
+  width : 211px;
+  height : auto;
+  position : absolute;
+  font-size : 14px;
+  align-self : auto;
+  text-align : left;
+  font-family : Roboto;
+  font-weight : 400;
+  line-height : 130%;
+  font-stretch : normal;
+  margin-right : 0;
+  margin-bottom : 0;
+  text-decoration : none;
+  }
+  .text122 {
+  top : 2568.60px;
+  left : 59.65px;
+  color : rgb(0, 0, 0, 1);
+  width : 211px;
+  height : auto;
+  position : absolute;
+  font-size : 14px;
+  align-self : auto;
+  text-align : left;
+  font-family : Roboto;
+  font-weight : 400;
+  line-height : 130%;
+  font-stretch : normal;
+  margin-right : 0;
+  margin-bottom : 0;
+  text-decoration : none;
+  }
+  .text127 {
+  top : 2138.85px;
+  left : 312.17px;
+  color : rgb(0, 0, 0, 1);
+  width : 211px;
+  height : auto;
+  position : absolute;
+  font-size : 14px;
+  align-self : auto;
+  text-align : left;
+  font-family : Roboto;
+  font-weight : 400;
+  line-height : 130%;
+  font-stretch : normal;
+  margin-right : 0;
+  margin-bottom : 0;
+  text-decoration : none;
+  }
+  .text132 {
+  top : 2352.56px;
+  left : 312.17px;
+  color : rgb(0, 0, 0, 1);
+  width : 211px;
+  height : auto;
+  position : absolute;
+  font-size : 14px;
+  align-self : auto;
+  text-align : left;
+  font-family : Roboto;
+  font-weight : 400;
+  line-height : 130%;
+  font-stretch : normal;
+  margin-right : 0;
+  margin-bottom : 0;
+  text-decoration : none;
+  }
+  .text137 {
+  top : 2568.60px;
+  left : 312.17px;
+  color : rgb(0, 0, 0, 1);
+  width : 211px;
+  height : auto;
+  position : absolute;
+  font-size : 14px;
+  align-self : auto;
+  text-align : left;
+  font-family : Roboto;
+  font-weight : 400;
+  line-height : 130%;
+  font-stretch : normal;
+  margin-right : 0;
+  margin-bottom : 0;
+  text-decoration : none;
+  }
+  .text142 {
+  top : 2138.85px;
+  left : 564.68px;
+  color : rgb(0, 0, 0, 1);
+  width : 211px;
+  height : auto;
+  position : absolute;
+  font-size : 14px;
+  align-self : auto;
+  text-align : left;
+  font-family : Roboto;
+  font-weight : 400;
+  line-height : 130%;
+  font-stretch : normal;
+  margin-right : 0;
+  margin-bottom : 0;
+  text-decoration : none;
+  }
+  .text147 {
+  top : 2352.56px;
+  left : 564.68px;
+  color : rgb(0, 0, 0, 1);
+  width : 211px;
+  height : auto;
+  position : absolute;
+  font-size : 14px;
+  align-self : auto;
+  text-align : left;
+  font-family : Roboto;
+  font-weight : 400;
+  line-height : 130%;
+  font-stretch : normal;
+  margin-right : 0;
+  margin-bottom : 0;
+  text-decoration : none;
+  }
+  .rectangle22 {
+  top : 2671px;
+  left : 0;
+  width : 834px;
+  height : 452px;
+  position : absolute;
+  border-color : transparent;
+  }
+  .rectangle23 {
+  top : 3122.75px;
+  left : 0;
+  width : 834px;
+  height : 452px;
+  position : absolute;
+  border-color : transparent;
+  }
+  .rectangle24 {
+  top : 3574.50px;
+  left : 0;
+  width : 834px;
+  height : 226px;
+  position : absolute;
+  border-color : transparent;
+  }
+  .text152 {
+  top : 2723.70px;
+  left : 70.65px;
+  color : rgb(0, 0, 0, 1);
+  width : 572px;
+  height : auto;
+  position : absolute;
+  font-size : 32px;
+  align-self : auto;
+  text-align : left;
+  font-family : "Roboto Slab";
+  font-weight : 700;
+  line-height : 101.38%;
+  font-stretch : normal;
+  margin-right : 0;
+  margin-bottom : 0;
+  text-decoration : none;
+  }
+  .text154 {
+  top : 3226.42px;
+  left : 70.65px;
+  color : rgb(0, 0, 0, 1);
+  width : 526px;
+  height : auto;
+  position : absolute;
+  font-size : 32px;
+  align-self : auto;
+  text-align : left;
+  font-family : "Roboto Slab";
+  font-weight : 700;
+  line-height : 101.38%;
+  font-stretch : normal;
+  margin-right : 0;
+  margin-bottom : 0;
+  text-decoration : none;
+  }
+  .text156 {
+  top : 3313.30px;
+  left : 70.65px;
+  color : rgb(0, 0, 0, 1);
+  width : 279px;
+  height : auto;
+  position : absolute;
+  font-size : 46px;
+  align-self : auto;
+  text-align : left;
+  font-family : Roboto;
+  font-weight : 400;
+  line-height : 101.38%;
+  font-stretch : normal;
+  margin-right : 0;
+  margin-bottom : 0;
+  text-decoration : none;
+  }
+  .text158 {
+  top : 3296px;
+  left : 70.65px;
+  color : rgb(0, 0, 0, 1);
+  width : 98px;
+  height : auto;
+  position : absolute;
+  font-size : 14px;
+  align-self : auto;
+  text-align : left;
+  font-family : Roboto;
+  font-weight : 400;
+  line-height : 101.38%;
+  font-stretch : normal;
+  margin-right : 0;
+  margin-bottom : 0;
+  text-decoration : none;
+  }
+  .text160 {
+  top : 3403.06px;
+  left : 70.65px;
+  color : rgb(0, 0, 0, 1);
+  width : 170px;
+  height : auto;
+  position : absolute;
+  font-size : 14px;
+  align-self : auto;
+  text-align : left;
+  font-family : Roboto;
+  font-weight : 400;
+  line-height : 101.38%;
+  font-stretch : normal;
+  margin-right : 0;
+  margin-bottom : 0;
+  text-decoration : none;
+  }
+  .text162 {
+  top : 3426.81px;
+  left : 70.65px;
+  color : rgb(0, 0, 0, 1);
+  width : 170px;
+  height : auto;
+  position : absolute;
+  font-size : 10px;
+  align-self : auto;
+  text-align : left;
+  font-family : Roboto;
+  font-weight : 400;
+  line-height : 101.38%;
+  font-stretch : normal;
+  margin-right : 0;
+  margin-bottom : 0;
+  text-decoration : none;
+  }
+  .text164 {
+  top : 3763.88px;
+  left : 70.65px;
+  color : rgb(255, 255, 255, 1);
+  width : 133px;
+  height : auto;
+  position : absolute;
+  font-size : 10px;
+  align-self : auto;
+  text-align : left;
+  font-family : Roboto;
+  font-weight : 400;
+  line-height : 101.38%;
+  font-stretch : normal;
+  margin-right : 0;
+  margin-bottom : 0;
+  text-decoration : none;
+  }
+  .text166 {
+  top : 3608.67px;
+  left : 593.64px;
+  color : rgb(255, 255, 255, 1);
+  width : 133px;
+  height : auto;
+  position : absolute;
+  font-size : 14px;
+  align-self : auto;
+  text-align : left;
+  font-family : Roboto;
+  font-weight : 400;
+  line-height : 101.38%;
+  font-stretch : normal;
+  margin-right : 0;
+  margin-bottom : 0;
+  text-decoration : none;
+  }
+  .text168 {
+  top : 3633.57px;
+  left : 593.64px;
+  color : rgb(255, 255, 255, 1);
+  width : 156px;
+  height : auto;
+  position : absolute;
+  font-size : 14px;
+  align-self : auto;
+  text-align : left;
+  font-family : Roboto;
+  font-weight : 400;
+  line-height : 101.38%;
+  font-stretch : normal;
+  margin-right : 0;
+  margin-bottom : 0;
+  text-decoration : none;
+  }
+  .text170 {
+  top : 3426.81px;
+  left : 281.47px;
+  color : rgb(0, 0, 0, 1);
+  width : 170px;
+  height : auto;
+  position : absolute;
+  font-size : 10px;
+  align-self : auto;
+  text-align : left;
+  font-family : Roboto;
+  font-weight : 400;
+  line-height : 101.38%;
+  font-stretch : normal;
+  margin-right : 0;
+  margin-bottom : 0;
+  text-decoration : none;
+  }
+  .text172 {
+  top : 3403.06px;
+  left : 281.47px;
+  color : rgb(0, 0, 0, 1);
+  width : 186px;
+  height : auto;
+  position : absolute;
+  font-size : 14px;
+  align-self : auto;
+  text-align : left;
+  font-family : Roboto;
+  font-weight : 400;
+  line-height : 101.38%;
+  font-stretch : normal;
+  margin-right : 0;
+  margin-bottom : 0;
+  text-decoration : none;
+  }
+  group7 {
+  top : 2797.25px;
+  left : 73px;
+  width : 458.12px;
+  height : 261.20px;
+  display : flex;
+  padding : 0;
+  position : absolute;
+  align-self : auto;
+  box-sizing : border-box;
+  align-items : flex-start;
+  flex-shrink : 1;
+  border-color : transparent;
+  border-style : none;
+  border-width : 0;
+  margin-right : 0;
+  border-radius : 30px;
+  margin-bottom : 0;
+  flex-direction : row;
+  justify-content : flex-start;
+  background-color : white;
+  }
+  .text174 {
+  top : 23.16px;
+  left : 26.06px;
+  color : rgb(0, 0, 0, 1);
+  width : 405px;
+  height : auto;
+  position : absolute;
+  font-size : 12px;
+  align-self : auto;
+  text-align : left;
+  font-family : Roboto;
+  font-weight : 400;
+  line-height : 150%;
+  font-stretch : normal;
+  text-decoration : none;
+  }
+  .i-m-a-g-e19 {
+  top : 2943.78px;
+  left : 88.03px;
+  width : 110px;
+  height : 98px;
+  position : absolute;
+  border-color : transparent;
+  }
+  .text176 {
+  top : 2967px;
+  left : 215.45px;
+  color : rgb(0, 0, 0, 1);
+  width : 204px;
+  height : auto;
+  position : absolute;
+  font-size : 17px;
+  align-self : auto;
+  text-align : left;
+  font-family : "Roboto Slab";
+  font-weight : 700;
+  line-height : 101.38%;
+  font-stretch : normal;
+  margin-right : 0;
+  margin-bottom : 0;
+  text-decoration : none;
+  }
+  .fb21 {
+  top : 3001.12px;
+  left : 215.45px;
+  width : 19px;
+  height : 18px;
+  position : absolute;
+  border-color : transparent;
+  }
+  .logomobilewhite1 {
+  top : 3603.45px;
+  left : 70.65px;
+  width : 67px;
+  height : 39px;
+  position : absolute;
+  border-color : transparent;
+  }
+  .noroot2 {
+  top : 3659.63px;
+  left : 165.64px;
+  width : 20px;
+  height : 20px;
+  position : absolute;
+  border-color : transparent;
+  }
+  .fb {
+  top : 3660.21px;
+  left : 100.20px;
+  width : 19px;
+  height : 19px;
+  position : absolute;
+  border-color : transparent;
+  }
+  .noroot4 {
+  top : 3660.21px;
+  left : 70.65px;
+  width : 19px;
+  height : 19px;
+  position : absolute;
+  border-color : transparent;
+  }
+  .i-m-a-g-e256841 {
+  top : 3659.05px;
+  left : 130.90px;
+  width : 20px;
+  height : 20px;
+  position : absolute;
+  border-color : transparent;
+  }
+  .mailwhite {
+  top : 3635.90px;
+  left : 565.26px;
+  width : 16px;
+  height : 10px;
+  position : absolute;
+  border-color : transparent;
+  }
+  .phonewhite {
+  top : 3605.77px;
+  left : 565.26px;
+  width : 16px;
+  height : 16px;
+  position : absolute;
+  border-color : transparent;
+  }
+  }
+  @media (max-width:991px) {
+    .container {
+      min-height: 100vh;
+    }
+    .main {
+      width: 100%;
+      height: 4524px;
+      display: flex;
+      overflow: hidden;
+      position: relative;
+      align-items: flex-start;
+      flex-shrink: 0;
+      border-color: transparent;
+      background-color: rgba(255, 255, 255, 1);
+    }
+    .text {
+      top: 134.32px;
+      left: 35.46px;
+      color: rgba(0, 0, 0, 1);
+      width: 293px;
+      height: auto;
+      position: absolute;
+      font-size: 37px;
+      align-self: auto;
+      font-style: Bold;
+      text-align: left;
+      font-family: Roboto Slab;
+      font-weight: 700;
+      line-height: 101.38%;
+      font-stretch: normal;
+      margin-right: 0;
+      margin-bottom: 0;
+      text-decoration: none;
+    }
+    .text002 {
+      top: 225.07px;
+      left: 35.74px;
+      color: rgba(0, 0, 0, 1);
+      width: 212px;
+      height: auto;
+      position: absolute;
+      font-size: 10px;
+      align-self: auto;
+      font-style: Regular;
+      text-align: left;
+      font-family: Roboto;
+      font-weight: 400;
+      line-height: 150%;
+      font-stretch: normal;
+      margin-right: 0;
+      margin-bottom: 0;
+      text-decoration: none;
+    }
+    .text007 {
+      top: 111.35px;
+      left: 136.11px;
+      color: rgba(0, 0, 0, 1);
+      width: 61px;
+      height: auto;
+      position: absolute;
+      font-size: 10px;
+      align-self: auto;
+      font-style: Regular;
+      text-align: left;
+      font-family: Roboto;
+      font-weight: 400;
+      line-height: 115%;
+      font-stretch: normal;
+      margin-right: 0;
+      margin-bottom: 0;
+      text-decoration: none;
+    }
+    .text009 {
+      top: 111.35px;
+      left: 211.60px;
+      color: rgba(0, 0, 0, 1);
+      width: 61px;
+      height: auto;
+      position: absolute;
+      font-size: 10px;
+      align-self: auto;
+      font-style: Regular;
+      text-align: left;
+      font-family: Roboto;
+      font-weight: 400;
+      line-height: 115%;
+      font-stretch: normal;
+      margin-right: 0;
+      margin-bottom: 0;
+      text-decoration: none;
+    }
+    .text011 {
+      top: 111.35px;
+      left: 49px;
+      color: rgba(0, 0, 0, 1);
+      width: 61px;
+      height: auto;
+      position: absolute;
+      font-size: 10px;
+      align-self: auto;
+      font-style: Regular;
+      text-align: left;
+      font-family: Roboto;
+      font-weight: 400;
+      line-height: 115%;
+      font-stretch: normal;
+      margin-right: 0;
+      margin-bottom: 0;
+      text-decoration: none;
+    }
+    .calendar2 {
+      top: 111.48px;
+      left: 196.22px;
+      width: 9px;
+      height: 10px;
+      position: absolute;
+      border-color: transparent;
+    }
+    .globe {
+      top: 112px;
+      left: 35px;
+      width: 10px;
+      height: 10px;
+      position: absolute;
+      border-color: transparent;
+    }
+    .img135744 {
+      top: 111.48px;
+      left: 121.20px;
+      width: 10px;
+      height: 10px;
+      position: absolute;
+      border-color: transparent;
+    }
+    .logomobileblack1 {
+      top: 36px;
+      left: 35px;
+      width: 52px;
+      height: 31px;
+      position: absolute;
+      border-color: transparent;
+    }
+    .group8 {
+      top: 254px;
+      left: 201px;
+      width: 141.67px;
+      height: 175.10px;
+      display: flex;
+      padding: 0;
+      position: absolute;
+      align-self: auto;
+      box-sizing: border-box;
+      align-items: flex-start;
+      flex-shrink: 1;
+      border-color: transparent;
+      border-style: none;
+      border-width: 0;
+      margin-right: 0;
+      border-radius: 0px 0px 0px 0px;
+      margin-bottom: 0;
+      flex-direction: row;
+      justify-content: flex-start;
+      background-color: transparent;
+    }
+    .ellipse1 {
+      top: 156px;
+      left: 14px;
+      width: 128px;
+      height: 19px;
+      position: absolute;
+      border-color: transparent;
+    }
+    .noroot1 {
+      top: 0px;
+      left: 0px;
+      width: 142px;
+      height: 166px;
+      position: absolute;
+      border-color: transparent;
+    }
+    .group1 {
+      top: 467.74px;
+      left: 38px;
+      width: 225.36px;
+      height: 93.20px;
+      display: flex;
+      padding: 0;
+      position: absolute;
+      align-self: auto;
+      box-sizing: border-box;
+      align-items: flex-start;
+      flex-shrink: 1;
+      border-color: transparent;
+      border-style: none;
+      border-width: 0;
+      margin-right: 0;
+      border-radius: 0px 0px 0px 0px;
+      margin-bottom: 0;
+      flex-direction: row;
+      justify-content: flex-start;
+      background-color: transparent;
+    }
+    .rectangle1 {
+      top: 0px;
+      left: 0px;
+      width: 225px;
+      height: 93px;
+      position: absolute;
+      border-color: transparent;
+      border-radius: 2.32px;
+    }
+    .text013 {
+      top: 9px;
+      left: 12.13px;
+      color: rgba(255, 255, 255, 1);
+      width: 201px;
+      height: auto;
+      position: absolute;
+      font-size: 11px;
+      align-self: auto;
+      font-style: Regular;
+      text-align: left;
+      font-family: Roboto Slab;
+      font-weight: 400;
+      line-height: 130%;
+      font-stretch: normal;
+      text-decoration: none;
+    }
+    .text018 {
+      top: 68.54px;
+      left: 87.07px;
+      color: rgba(255, 255, 255, 1);
+      width: 131px;
+      height: auto;
+      position: absolute;
+      font-size: 10px;
+      align-self: auto;
+      font-style: Regular;
+      text-align: right;
+      font-family: Roboto;
+      font-weight: 400;
+      line-height: 130%;
+      font-stretch: normal;
+      text-decoration: none;
+    }
+    .text020 {
+      top: 687.72px;
+      left: 36px;
+      color: rgba(0, 0, 0, 1);
+      width: 308px;
+      height: auto;
+      position: absolute;
+      font-size: 12px;
+      align-self: auto;
+      font-style: Regular;
+      text-align: left;
+      font-family: Roboto;
+      font-weight: 400;
+      line-height: 150%;
+      font-stretch: normal;
+      margin-right: 0;
+      margin-bottom: 0;
+      text-decoration: none;
+    }
+    .text027 {
+      top: 636px;
+      left: 36px;
+      color: rgba(0, 0, 0, 1);
+      width: 170px;
+      height: auto;
+      position: absolute;
+      font-size: 26px;
+      align-self: auto;
+      font-style: Bold;
+      text-align: left;
+      font-family: Roboto Slab;
+      font-weight: 700;
+      line-height: 101.38%;
+      font-stretch: normal;
+      margin-right: 0;
+      margin-bottom: 0;
+      text-decoration: none;
+    }
+    .group9 {
+      top: 918px;
+      left: 101px;
+      width: 170.54px;
+      height: 160.30px;
+      display: flex;
+      padding: 0;
+      position: absolute;
+      align-self: auto;
+      box-sizing: border-box;
+      align-items: flex-start;
+      flex-shrink: 1;
+      border-color: transparent;
+      border-style: none;
+      border-width: 0;
+      margin-right: 0;
+      border-radius: 0px 0px 0px 0px;
+      margin-bottom: 0;
+      flex-direction: row;
+      justify-content: flex-start;
+      background-color: transparent;
+    }
+    .ellipse2 {
+      top: 132.80px;
+      left: 0px;
+      width: 171px;
+      height: 27px;
+      position: absolute;
+      border-color: transparent;
+    }
+    .i-m-a-g-e11 {
+      top: 0px;
+      left: 12.11px;
+      width: 146px;
+      height: 147px;
+      position: absolute;
+      border-color: transparent;
+    }
+    .text029 {
+      top: 1124px;
+      left: 35px;
+      color: rgba(0, 0, 0, 1);
+      width: 70px;
+      height: auto;
+      position: absolute;
+      font-size: 12px;
+      align-self: auto;
+      font-style: Bold;
+      text-align: left;
+      font-family: Roboto;
+      font-weight: 700;
+      line-height: 130%;
+      font-stretch: normal;
+      margin-right: 0;
+      margin-bottom: 0;
+      text-decoration: none;
+    }
+    .text031 {
+      top: 1143px;
+      left: 35px;
+      color: rgba(0, 0, 0, 1);
+      width: 86px;
+      height: auto;
+      position: absolute;
+      font-size: 10px;
+      align-self: auto;
+      font-style: Regular;
+      text-align: left;
+      font-family: Roboto;
+      font-weight: 400;
+      line-height: 130%;
+      font-stretch: normal;
+      margin-right: 0;
+      margin-bottom: 0;
+      text-decoration: none;
+    }
+    .text036 {
+      top: 1142.46px;
+      left: 154.33px;
+      color: rgba(0, 0, 0, 1);
+      width: 87px;
+      height: auto;
+      position: absolute;
+      font-size: 10px;
+      align-self: auto;
+      font-style: Regular;
+      text-align: left;
+      font-family: Roboto;
+      font-weight: 400;
+      line-height: 130%;
+      font-stretch: normal;
+      margin-right: 0;
+      margin-bottom: 0;
+      text-decoration: none;
+    }
+    .text041 {
+      top: 1214px;
+      left: 35px;
+      color: rgba(0, 0, 0, 1);
+      width: 76px;
+      height: auto;
+      position: absolute;
+      font-size: 10px;
+      align-self: auto;
+      font-style: Regular;
+      text-align: left;
+      font-family: Roboto;
+      font-weight: 400;
+      line-height: 130%;
+      font-stretch: normal;
+      margin-right: 0;
+      margin-bottom: 0;
+      text-decoration: none;
+    }
+    .text046 {
+      top: 1124px;
+      left: 154.16px;
+      color: rgba(0, 0, 0, 1);
+      width: 70px;
+      height: auto;
+      position: absolute;
+      font-size: 12px;
+      align-self: auto;
+      font-style: Bold;
+      text-align: left;
+      font-family: Roboto;
+      font-weight: 700;
+      line-height: 130%;
+      font-stretch: normal;
+      margin-right: 0;
+      margin-bottom: 0;
+      text-decoration: none;
+    }
+    .text048 {
+      top: 1195px;
+      left: 35px;
+      color: rgba(0, 0, 0, 1);
+      width: 70px;
+      height: auto;
+      position: absolute;
+      font-size: 12px;
+      align-self: auto;
+      font-style: Bold;
+      text-align: left;
+      font-family: Roboto;
+      font-weight: 700;
+      line-height: 130%;
+      font-stretch: normal;
+      margin-right: 0;
+      margin-bottom: 0;
+      text-decoration: none;
+    }
+    .text050 {
+      top: 1368px;
+      left: 35px;
+      color: rgba(30, 70, 129, 1);
+      width: 70px;
+      height: auto;
+      position: absolute;
+      font-size: 12px;
+      align-self: auto;
+      font-style: Bold;
+      text-align: left;
+      font-family: Roboto;
+      font-weight: 700;
+      line-height: 130%;
+      font-stretch: normal;
+      margin-right: 0;
+      margin-bottom: 0;
+      text-decoration: none;
+    }
+    .text052 {
+      top: 1387px;
+      left: 35px;
+      color: rgba(0, 0, 0, 1);
+      width: 180px;
+      height: auto;
+      position: absolute;
+      font-size: 10px;
+      align-self: auto;
+      font-style: Regular;
+      text-align: left;
+      font-family: Roboto;
+      font-weight: 400;
+      line-height: 130%;
+      font-stretch: normal;
+      margin-right: 0;
+      margin-bottom: 0;
+      text-decoration: none;
+    }
+    .text054 {
+      top: 1464px;
+      left: 35px;
+      color: rgba(0, 0, 0, 1);
+      width: 165px;
+      height: auto;
+      position: absolute;
+      font-size: 10px;
+      align-self: auto;
+      font-style: Regular;
+      text-align: left;
+      font-family: Roboto;
+      font-weight: 400;
+      line-height: 130%;
+      font-stretch: normal;
+      margin-right: 0;
+      margin-bottom: 0;
+      text-decoration: none;
+    }
+    .text056 {
+      top: 1445px;
+      left: 35.37px;
+      color: rgba(30, 70, 129, 1);
+      width: 100px;
+      height: auto;
+      position: absolute;
+      font-size: 12px;
+      align-self: auto;
+      font-style: Bold;
+      text-align: left;
+      font-family: Roboto;
+      font-weight: 700;
+      line-height: 130%;
+      font-stretch: normal;
+      margin-right: 0;
+      margin-bottom: 0;
+      text-decoration: none;
+    }
+    .text058 {
+      top: 1308px;
+      left: 36px;
+      color: rgba(0, 0, 0, 1);
+      width: 311px;
+      height: auto;
+      position: absolute;
+      font-size: 26px;
+      align-self: auto;
+      font-style: Bold;
+      text-align: left;
+      font-family: Roboto Slab;
+      font-weight: 700;
+      line-height: 101.38%;
+      font-stretch: normal;
+      margin-right: 0;
+      margin-bottom: 0;
+      text-decoration: none;
+    }
+    .text060 {
+      top: 1553px;
+      left: 36px;
+      color: rgba(0, 0, 0, 1);
+      width: 159px;
+      height: auto;
+      position: absolute;
+      font-size: 10px;
+      align-self: auto;
+      font-style: Regular;
+      text-align: left;
+      font-family: Roboto;
+      font-weight: 400;
+      line-height: 130%;
+      font-stretch: normal;
+      margin-right: 0;
+      margin-bottom: 0;
+      text-decoration: none;
+    }
+    .text065 {
+      top: 1534px;
+      left: 36px;
+      color: rgba(30, 70, 129, 1);
+      width: 70px;
+      height: auto;
+      position: absolute;
+      font-size: 12px;
+      align-self: auto;
+      font-style: Bold;
+      text-align: left;
+      font-family: Roboto;
+      font-weight: 700;
+      line-height: 130%;
+      font-stretch: normal;
+      margin-right: 0;
+      margin-bottom: 0;
+      text-decoration: none;
+    }
+    .text067 {
+      top: 1710px;
+      left: 44px;
+      color: rgba(0, 0, 0, 1);
+      width: 299px;
+      height: auto;
+      position: absolute;
+      font-size: 12px;
+      align-self: auto;
+      font-style: Regular;
+      text-align: left;
+      font-family: Roboto;
+      font-weight: 400;
+      line-height: 150%;
+      font-stretch: normal;
+      margin-right: 0;
+      margin-bottom: 0;
+      text-decoration: none;
+    }
+    .text084 {
+      top: 1657px;
+      left: 36px;
+      color: rgba(0, 0, 0, 1);
+      width: 311px;
+      height: auto;
+      position: absolute;
+      font-size: 26px;
+      align-self: auto;
+      font-style: Bold;
+      text-align: left;
+      font-family: Roboto Slab;
+      font-weight: 700;
+      line-height: 101.38%;
+      font-stretch: normal;
+      margin-right: 0;
+      margin-bottom: 0;
+      text-decoration: none;
+    }
+    .ellipse6 {
+      top: 1717.17px;
+      left: 36.46px;
+      width: 3px;
+      height: 3px;
+      position: absolute;
+      border-color: transparent;
+    }
+    .ellipse7 {
+      top: 1735.42px;
+      left: 36.46px;
+      width: 3px;
+      height: 3px;
+      position: absolute;
+      border-color: transparent;
+    }
+    .ellipse8 {
+      top: 1753.20px;
+      left: 36.46px;
+      width: 3px;
+      height: 3px;
+      position: absolute;
+      border-color: transparent;
+    }
+    .ellipse9 {
+      top: 1789.21px;
+      left: 36.46px;
+      width: 3px;
+      height: 3px;
+      position: absolute;
+      border-color: transparent;
+    }
+    .ellipse10 {
+      top: 1825.30px;
+      left: 36.46px;
+      width: 3px;
+      height: 3px;
+      position: absolute;
+      border-color: transparent;
+    }
+    .ellipse11 {
+      top: 1860.65px;
+      left: 36.46px;
+      width: 3px;
+      height: 3px;
+      position: absolute;
+      border-color: transparent;
+    }
+    .ellipse12 {
+      top: 1896.20px;
+      left: 36.46px;
+      width: 3px;
+      height: 3px;
+      position: absolute;
+      border-color: transparent;
+    }
+    .text086 {
+      top: 1969px;
+      left: 34px;
+      color: rgba(0, 0, 0, 1);
+      width: 422px;
+      height: auto;
+      position: absolute;
+      font-size: 26px;
+      align-self: auto;
+      font-style: Bold;
+      text-align: left;
+      font-family: Roboto Slab;
+      font-weight: 700;
+      line-height: 101.38%;
+      font-stretch: normal;
+      margin-right: 0;
+      margin-bottom: 0;
+      text-decoration: none;
+    }
+    .group12 {
+      top: 2048px;
+      left: 95px;
+      width: 186px;
+      height: 152.83px;
+      display: flex;
+      padding: 0;
+      position: absolute;
+      align-self: auto;
+      box-sizing: border-box;
+      align-items: flex-start;
+      flex-shrink: 1;
+      border-color: transparent;
+      border-style: none;
+      border-width: 0;
+      margin-right: 0;
+      border-radius: 0px 0px 0px 0px;
+      margin-bottom: 0;
+      flex-direction: row;
+      justify-content: flex-start;
+      background-color: rgba(255, 255, 255, 1);
+    }
+    .rectangle5 {
+      top: 0px;
+      left: 0px;
+      width: 186px;
+      height: 75px;
+      position: absolute;
+    }
+    .text088 {
+      top: 79.68px;
+      left: 9.32px;
+      color: rgba(0, 0, 0, 1);
+      width: 170px;
+      height: auto;
+      position: absolute;
+      font-size: 14px;
+      align-self: auto;
+      font-style: Bold;
+      text-align: left;
+      font-family: Roboto;
+      font-weight: 700;
+      line-height: 130%;
+      font-stretch: normal;
+      text-decoration: none;
+    }
+    .text090 {
+      top: 112.76px;
+      left: 8.85px;
+      color: rgba(0, 0, 0, 1);
+      width: 170px;
+      height: auto;
+      position: absolute;
+      font-size: 12px;
+      align-self: auto;
+      font-style: Regular;
+      text-align: left;
+      font-family: Roboto;
+      font-weight: 400;
+      line-height: 130%;
+      font-stretch: normal;
+      text-decoration: none;
+    }
+    .group13 {
+      top: 2225px;
+      left: 95px;
+      width: 186px;
+      height: 152.83px;
+      display: flex;
+      padding: 0;
+      position: absolute;
+      align-self: auto;
+      box-sizing: border-box;
+      align-items: flex-start;
+      flex-shrink: 1;
+      border-color: transparent;
+      border-style: none;
+      border-width: 0;
+      margin-right: 0;
+      border-radius: 0px 0px 0px 0px;
+      margin-bottom: 0;
+      flex-direction: row;
+      justify-content: flex-start;
+      background-color: rgba(255, 255, 255, 1);
+    }
+    .rectangle7 {
+      top: 0px;
+      left: 0px;
+      width: 186px;
+      height: 75px;
+      position: absolute;
+    }
+    .text095 {
+      top: 79.68px;
+      left: 9.32px;
+      color: rgba(0, 0, 0, 1);
+      width: 170px;
+      height: auto;
+      position: absolute;
+      font-size: 14px;
+      align-self: auto;
+      font-style: Bold;
+      text-align: left;
+      font-family: Roboto;
+      font-weight: 700;
+      line-height: 130%;
+      font-stretch: normal;
+      text-decoration: none;
+    }
+    .text097 {
+      top: 112.76px;
+      left: 8.85px;
+      color: rgba(0, 0, 0, 1);
+      width: 170px;
+      height: auto;
+      position: absolute;
+      font-size: 12px;
+      align-self: auto;
+      font-style: Regular;
+      text-align: left;
+      font-family: Roboto;
+      font-weight: 400;
+      line-height: 130%;
+      font-stretch: normal;
+      text-decoration: none;
+    }
+    .group14 {
+      top: 2402px;
+      left: 95px;
+      width: 186px;
+      height: 152.83px;
+      display: flex;
+      padding: 0;
+      position: absolute;
+      align-self: auto;
+      box-sizing: border-box;
+      align-items: flex-start;
+      flex-shrink: 1;
+      border-color: transparent;
+      border-style: none;
+      border-width: 0;
+      margin-right: 0;
+      border-radius: 0px 0px 0px 0px;
+      margin-bottom: 0;
+      flex-direction: row;
+      justify-content: flex-start;
+      background-color: rgba(255, 255, 255, 1);
+    }
+    .rectangle9 {
+      top: 0px;
+      left: 0px;
+      width: 186px;
+      height: 75px;
+      position: absolute;
+    }
+    .text102 {
+      top: 79.68px;
+      left: 9.32px;
+      color: rgba(0, 0, 0, 1);
+      width: 170px;
+      height: auto;
+      position: absolute;
+      font-size: 14px;
+      align-self: auto;
+      font-style: Bold;
+      text-align: left;
+      font-family: Roboto;
+      font-weight: 700;
+      line-height: 130%;
+      font-stretch: normal;
+      text-decoration: none;
+    }
+    .text104 {
+      top: 112.76px;
+      left: 8.85px;
+      color: rgba(0, 0, 0, 1);
+      width: 170px;
+      height: auto;
+      position: absolute;
+      font-size: 12px;
+      align-self: auto;
+      font-style: Regular;
+      text-align: left;
+      font-family: Roboto;
+      font-weight: 400;
+      line-height: 130%;
+      font-stretch: normal;
+      text-decoration: none;
+    }
+    .group15 {
+      top: 2579px;
+      left: 95px;
+      width: 186px;
+      height: 152.83px;
+      display: flex;
+      padding: 0;
+      position: absolute;
+      align-self: auto;
+      box-sizing: border-box;
+      align-items: flex-start;
+      flex-shrink: 1;
+      border-color: transparent;
+      border-style: none;
+      border-width: 0;
+      margin-right: 0;
+      border-radius: 0px 0px 0px 0px;
+      margin-bottom: 0;
+      flex-direction: row;
+      justify-content: flex-start;
+      background-color: rgba(255, 255, 255, 1);
+    }
+    .rectangle13 {
+      top: 0px;
+      left: 0px;
+      width: 186px;
+      height: 75px;
+      position: absolute;
+    }
+    .text109 {
+      top: 79.68px;
+      left: 9.32px;
+      color: rgba(0, 0, 0, 1);
+      width: 170px;
+      height: auto;
+      position: absolute;
+      font-size: 14px;
+      align-self: auto;
+      font-style: Bold;
+      text-align: left;
+      font-family: Roboto;
+      font-weight: 700;
+      line-height: 130%;
+      font-stretch: normal;
+      text-decoration: none;
+    }
+    .text111 {
+      top: 112.76px;
+      left: 8.85px;
+      color: rgba(0, 0, 0, 1);
+      width: 170px;
+      height: auto;
+      position: absolute;
+      font-size: 12px;
+      align-self: auto;
+      font-style: Regular;
+      text-align: left;
+      font-family: Roboto;
+      font-weight: 400;
+      line-height: 130%;
+      font-stretch: normal;
+      text-decoration: none;
+    }
+    .group19 {
+      top: 2756px;
+      left: 96px;
+      width: 186px;
+      height: 152.83px;
+      display: flex;
+      padding: 0;
+      position: absolute;
+      align-self: auto;
+      box-sizing: border-box;
+      align-items: flex-start;
+      flex-shrink: 1;
+      border-color: transparent;
+      border-style: none;
+      border-width: 0;
+      margin-right: 0;
+      border-radius: 0px 0px 0px 0px;
+      margin-bottom: 0;
+      flex-direction: row;
+      justify-content: flex-start;
+      background-color: rgba(255, 255, 255, 1);
+    }
+    .rectangle14 {
+      top: 0px;
+      left: 0px;
+      width: 186px;
+      height: 75px;
+      position: absolute;
+    }
+    .text116 {
+      top: 79.68px;
+      left: 9.32px;
+      color: rgba(0, 0, 0, 1);
+      width: 170px;
+      height: auto;
+      position: absolute;
+      font-size: 14px;
+      align-self: auto;
+      font-style: Bold;
+      text-align: left;
+      font-family: Roboto;
+      font-weight: 700;
+      line-height: 130%;
+      font-stretch: normal;
+      text-decoration: none;
+    }
+    .text118 {
+      top: 112.76px;
+      left: 8.85px;
+      color: rgba(0, 0, 0, 1);
+      width: 170px;
+      height: auto;
+      position: absolute;
+      font-size: 12px;
+      align-self: auto;
+      font-style: Regular;
+      text-align: left;
+      font-family: Roboto;
+      font-weight: 400;
+      line-height: 130%;
+      font-stretch: normal;
+      text-decoration: none;
+    }
+    .group16 {
+      top: 2933px;
+      left: 95px;
+      width: 186px;
+      height: 152.83px;
+      display: flex;
+      padding: 0;
+      position: absolute;
+      align-self: auto;
+      box-sizing: border-box;
+      align-items: flex-start;
+      flex-shrink: 1;
+      border-color: transparent;
+      border-style: none;
+      border-width: 0;
+      margin-right: 0;
+      border-radius: 0px 0px 0px 0px;
+      margin-bottom: 0;
+      flex-direction: row;
+      justify-content: flex-start;
+      background-color: rgba(255, 255, 255, 1);
+    }
+    .rectangle15 {
+      top: 0px;
+      left: 0px;
+      width: 186px;
+      height: 75px;
+      position: absolute;
+    }
+    .text123 {
+      top: 79.68px;
+      left: 9.32px;
+      color: rgba(0, 0, 0, 1);
+      width: 170px;
+      height: auto;
+      position: absolute;
+      font-size: 14px;
+      align-self: auto;
+      font-style: Bold;
+      text-align: left;
+      font-family: Roboto;
+      font-weight: 700;
+      line-height: 130%;
+      font-stretch: normal;
+      text-decoration: none;
+    }
+    .text125 {
+      top: 112.76px;
+      left: 8.85px;
+      color: rgba(0, 0, 0, 1);
+      width: 170px;
+      height: auto;
+      position: absolute;
+      font-size: 12px;
+      align-self: auto;
+      font-style: Regular;
+      text-align: left;
+      font-family: Roboto;
+      font-weight: 400;
+      line-height: 130%;
+      font-stretch: normal;
+      text-decoration: none;
+    }
+    .group18 {
+      top: 3110px;
+      left: 95px;
+      width: 186px;
+      height: 152.83px;
+      display: flex;
+      padding: 0;
+      position: absolute;
+      align-self: auto;
+      box-sizing: border-box;
+      align-items: flex-start;
+      flex-shrink: 1;
+      border-color: transparent;
+      border-style: none;
+      border-width: 0;
+      margin-right: 0;
+      border-radius: 0px 0px 0px 0px;
+      margin-bottom: 0;
+      flex-direction: row;
+      justify-content: flex-start;
+      background-color: rgba(255, 255, 255, 1);
+    }
+    .rectangle19 {
+      top: 0px;
+      left: 0px;
+      width: 186px;
+      height: 75px;
+      position: absolute;
+    }
+    .text130 {
+      top: 79.68px;
+      left: 9.32px;
+      color: rgba(0, 0, 0, 1);
+      width: 170px;
+      height: auto;
+      position: absolute;
+      font-size: 14px;
+      align-self: auto;
+      font-style: Bold;
+      text-align: left;
+      font-family: Roboto;
+      font-weight: 700;
+      line-height: 130%;
+      font-stretch: normal;
+      text-decoration: none;
+    }
+    .text132 {
+      top: 112.76px;
+      left: 8.85px;
+      color: rgba(0, 0, 0, 1);
+      width: 170px;
+      height: auto;
+      position: absolute;
+      font-size: 12px;
+      align-self: auto;
+      font-style: Regular;
+      text-align: left;
+      font-family: Roboto;
+      font-weight: 400;
+      line-height: 130%;
+      font-stretch: normal;
+      text-decoration: none;
+    }
+    .group17 {
+      top: 3287px;
+      left: 95px;
+      width: 186px;
+      height: 152.83px;
+      display: flex;
+      padding: 0;
+      position: absolute;
+      align-self: auto;
+      box-sizing: border-box;
+      align-items: flex-start;
+      flex-shrink: 1;
+      border-color: transparent;
+      border-style: none;
+      border-width: 0;
+      margin-right: 0;
+      border-radius: 0px 0px 0px 0px;
+      margin-bottom: 0;
+      flex-direction: row;
+      justify-content: flex-start;
+      background-color: rgba(255, 255, 255, 1);
+    }
+    .rectangle20 {
+      top: 0px;
+      left: 0px;
+      width: 186px;
+      height: 75px;
+      position: absolute;
+    }
+    .text137 {
+      top: 82.01px;
+      left: 9.32px;
+      color: rgba(0, 0, 0, 1);
+      width: 170px;
+      height: auto;
+      position: absolute;
+      font-size: 14px;
+      align-self: auto;
+      font-style: Bold;
+      text-align: left;
+      font-family: Roboto;
+      font-weight: 700;
+      line-height: 97%;
+      font-stretch: normal;
+      text-decoration: none;
+    }
+    .text142 {
+      top: 112.76px;
+      left: 8.85px;
+      color: rgba(0, 0, 0, 1);
+      width: 170px;
+      height: auto;
+      position: absolute;
+      font-size: 12px;
+      align-self: auto;
+      font-style: Regular;
+      text-align: left;
+      font-family: Roboto;
+      font-weight: 400;
+      line-height: 130%;
+      font-stretch: normal;
+      text-decoration: none;
+    }
+    .rectangle22 {
+      top: 3487px;
+      left: -1px;
+      width: 376px;
+      height: 423px;
+      position: absolute;
+      border-color: transparent;
+    }
+    .text147 {
+      top: 3529px;
+      left: 35px;
+      color: rgba(0, 0, 0, 1);
+      width: 257px;
+      height: auto;
+      position: absolute;
+      font-size: 26px;
+      align-self: auto;
+      font-style: Bold;
+      text-align: left;
+      font-family: Roboto Slab;
+      font-weight: 700;
+      line-height: 101.38%;
+      font-stretch: normal;
+      margin-right: 0;
+      margin-bottom: 0;
+      text-decoration: none;
+    }
+    .group21 {
+      top: 3609px;
+      left: 35px;
+      width: 308px;
+      height: 248px;
+      display: flex;
+      padding: 0;
+      position: absolute;
+      align-self: auto;
+      box-sizing: border-box;
+      align-items: flex-start;
+      flex-shrink: 1;
+      border-color: transparent;
+      border-style: none;
+      border-width: 0;
+      margin-right: 0;
+      border-radius: 0px 0px 0px 0px;
+      margin-bottom: 0;
+      flex-direction: row;
+      justify-content: flex-start;
+      background-color: transparent;
+    }
+    .group7 {
+      top: 0px;
+      left: 0px;
+      width: 308px;
+      height: 248px;
+      display: flex;
+      padding: 0;
+      position: absolute;
+      align-self: auto;
+      box-sizing: border-box;
+      align-items: flex-start;
+      flex-shrink: 1;
+      border-color: transparent;
+      border-style: none;
+      border-width: 0;
+      border-radius: 0px 0px 0px 0px;
+      flex-direction: row;
+      justify-content: flex-start;
+      background-color: rgba(255, 255, 255, 1);
+    }
+    .text149 {
+      top: 18.47px;
+      left: 21px;
+      color: rgba(0, 0, 0, 1);
+      width: 266px;
+      height: auto;
+      position: absolute;
+      font-size: 10px;
+      align-self: auto;
+      font-style: Regular;
+      text-align: left;
+      font-family: Roboto;
+      font-weight: 400;
+      line-height: 150%;
+      font-stretch: normal;
+      text-decoration: none;
+    }
+    .i-m-a-g-e19 {
+      top: 151px;
+      left: 21px;
+      width: 80px;
+      height: 84px;
+      position: absolute;
+      border-color: transparent;
+    }
+    .text151 {
+      top: 168.53px;
+      left: 114.62px;
+      color: rgba(0, 0, 0, 1);
+      width: 164px;
+      height: auto;
+      position: absolute;
+      font-size: 14px;
+      align-self: auto;
+      font-style: Bold;
+      text-align: left;
+      font-family: Roboto Slab;
+      font-weight: 700;
+      line-height: 101.38%;
+      font-stretch: normal;
+      text-decoration: none;
+    }
+    .fb21 {
+      top: 201.26px;
+      left: 114.63px;
+      width: 15px;
+      height: 17px;
+      position: absolute;
+      border-color: transparent;
+    }
+    .rectangle23 {
+      top: 3910px;
+      left: -23px;
+      width: 671px;
+      height: 363px;
+      position: absolute;
+      border-color: transparent;
+    }
+    .text153 {
+      top: 3972px;
+      left: 34px;
+      color: rgba(0, 0, 0, 1);
+      width: 224px;
+      height: auto;
+      position: absolute;
+      font-size: 26px;
+      align-self: auto;
+      font-style: Bold;
+      text-align: left;
+      font-family: Roboto Slab;
+      font-weight: 700;
+      line-height: 101.38%;
+      font-stretch: normal;
+      margin-right: 0;
+      margin-bottom: 0;
+      text-decoration: none;
+    }
+    .text155 {
+      top: 4071.30px;
+      left: 33.84px;
+      color: rgba(0, 0, 0, 1);
+      width: 224px;
+      height: auto;
+      position: absolute;
+      font-size: 37px;
+      align-self: auto;
+      font-style: Regular;
+      text-align: left;
+      font-family: Roboto;
+      font-weight: 400;
+      line-height: 101.38%;
+      font-stretch: normal;
+      margin-right: 0;
+      margin-bottom: 0;
+      text-decoration: none;
+    }
+    .text157 {
+      top: 4057.32px;
+      left: 33.84px;
+      color: rgba(0, 0, 0, 1);
+      width: 79px;
+      height: auto;
+      position: absolute;
+      font-size: 12px;
+      align-self: auto;
+      font-style: Regular;
+      text-align: left;
+      font-family: Roboto;
+      font-weight: 400;
+      line-height: 101.38%;
+      font-stretch: normal;
+      margin-right: 0;
+      margin-bottom: 0;
+      text-decoration: none;
+    }
+    .text159 {
+      top: 4143.53px;
+      left: 34.84px;
+      color: rgba(0, 0, 0, 1);
+      width: 137px;
+      height: auto;
+      position: absolute;
+      font-size: 12px;
+      align-self: auto;
+      font-style: Regular;
+      text-align: left;
+      font-family: Roboto;
+      font-weight: 400;
+      line-height: 101.38%;
+      font-stretch: normal;
+      margin-right: 0;
+      margin-bottom: 0;
+      text-decoration: none;
+    }
+    .text161 {
+      top: 4163px;
+      left: 34px;
+      color: rgba(0, 0, 0, 1);
+      width: 138px;
+      height: auto;
+      position: absolute;
+      font-size: 10px;
+      align-self: auto;
+      font-style: Regular;
+      text-align: left;
+      font-family: Roboto;
+      font-weight: 400;
+      line-height: 101.38%;
+      font-stretch: normal;
+      margin-right: 0;
+      margin-bottom: 0;
+      text-decoration: none;
+    }
+    .text163 {
+      top: 4163px;
+      left: 203px;
+      color: rgba(0, 0, 0, 1);
+      width: 140px;
+      height: auto;
+      position: absolute;
+      font-size: 10px;
+      align-self: auto;
+      font-style: Regular;
+      text-align: left;
+      font-family: Roboto;
+      font-weight: 400;
+      line-height: 101.38%;
+      font-stretch: normal;
+      margin-right: 0;
+      margin-bottom: 0;
+      text-decoration: none;
+    }
+    .text168 {
+      top: 4144px;
+      left: 203px;
+      color: rgba(0, 0, 0, 1);
+      width: 151px;
+      height: auto;
+      position: absolute;
+      font-size: 12px;
+      align-self: auto;
+      font-style: Regular;
+      text-align: left;
+      font-family: Roboto;
+      font-weight: 400;
+      line-height: 101.38%;
+      font-stretch: normal;
+      margin-right: 0;
+      margin-bottom: 0;
+      text-decoration: none;
+    }
+    .rectangle24 {
+      top: 4273px;
+      left: -19px;
+      width: 394px;
+      height: 251px;
+      position: absolute;
+      border-color: transparent;
+    }
+    .text170 {
+      top: 4495px;
+      left: 38px;
+      color: rgba(255, 255, 255, 1);
+      width: 141px;
+      height: auto;
+      position: absolute;
+      font-size: 10px;
+      align-self: auto;
+      font-style: Regular;
+      text-align: left;
+      font-family: Roboto;
+      font-weight: 400;
+      line-height: 101.38%;
+      font-stretch: normal;
+      margin-right: 0;
+      margin-bottom: 0;
+      text-decoration: none;
+    }
+    .logomobilewhite1 {
+      top: 4296.30px;
+      left: 37.84px;
+      width: 54px;
+      height: 32px;
+      position: absolute;
+      border-color: transparent;
+    }
+    .noroot2 {
+      top: 4341.50px;
+      left: 114.26px;
+      width: 16px;
+      height: 16px;
+      position: absolute;
+      border-color: transparent;
+    }
+    .fb {
+      top: 4342px;
+      left: 61.61px;
+      width: 15px;
+      height: 15px;
+      position: absolute;
+      border-color: transparent;
+    }
+    .noroot4 {
+      top: 4342px;
+      left: 37.84px;
+      width: 15px;
+      height: 15px;
+      position: absolute;
+      border-color: transparent;
+    }
+    .i-m-a-g-e256841 {
+      top: 4341.03px;
+      left: 86.31px;
+      width: 16px;
+      height: 16px;
+      position: absolute;
+      border-color: transparent;
+    }
+    .group22 {
+      top: 4405px;
+      left: 38px;
+      width: 148.18px;
+      height: 41px;
+      display: flex;
+      padding: 0;
+      position: absolute;
+      align-self: auto;
+      box-sizing: border-box;
+      align-items: flex-start;
+      flex-shrink: 1;
+      border-color: transparent;
+      border-style: none;
+      border-width: 0;
+      margin-right: 0;
+      border-radius: 0px 0px 0px 0px;
+      margin-bottom: 0;
+      flex-direction: row;
+      justify-content: flex-start;
+      background-color: transparent;
+    }
+    .text172 {
+      top: 2.33px;
+      left: 22.83px;
+      color: rgba(255, 255, 255, 1);
+      width: 107px;
+      height: auto;
+      position: absolute;
+      font-size: 12px;
+      align-self: auto;
+      font-style: Regular;
+      text-align: left;
+      font-family: Roboto;
+      font-weight: 400;
+      line-height: 101.38%;
+      font-stretch: normal;
+      text-decoration: none;
+    }
+    .text174 {
+      top: 22.36px;
+      left: 22.83px;
+      color: rgba(255, 255, 255, 1);
+      width: 125px;
+      height: auto;
+      position: absolute;
+      font-size: 12px;
+      align-self: auto;
+      font-style: Regular;
+      text-align: left;
+      font-family: Roboto;
+      font-weight: 400;
+      line-height: 101.38%;
+      font-stretch: normal;
+      text-decoration: none;
+    }
+    .mailwhite {
+      top: 24.23px;
+      left: 0px;
+      width: 13px;
+      height: 8px;
+      position: absolute;
+      border-color: transparent;
+    }
+    .phonewhite {
+      top: 0px;
+      left: 0px;
+      width: 13px;
+      height: 13px;
+      position: absolute;
+      border-color: transparent;
+    }
+    
+  }
+  
